@@ -6,8 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix cs: <http://www.w3.org/jp-cos/>.
-@prefix naaa: <http://www.w3.org/jp-naaa/>.
+@prefix cs: <https://www.w3.org/jp-cos/>.
+@prefix naaa: <https://www.w3.org/jp-naaa/>.
 #調査問題全体TTL
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2021> a <https://w3id.org/jp-naaa/Test>;
@@ -54,6 +54,7 @@
     schema:contentUrl <https://warp.da.ndl.go.jp/info:ndljp/pid/14460507/www.nier.go.jp/jugyourei/r03/idea-01.html> ; #授業アイデアHTMLのURL
     schema:name "令和3年度 小学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小算2021> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和3年度全国学力・学習状況調査 【小学校／算数】" ; #ラベル
@@ -99,6 +100,7 @@
     schema:contentUrl <https://warp.da.ndl.go.jp/info:ndljp/pid/14460507/www.nier.go.jp/jugyourei/r03/idea-02.html> ; #授業アイデアHTMLのURL
     schema:name "令和3年度 小学校算数の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中国2021> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和3年度全国学力・学習状況調査 【中学校／国語】" ; #ラベル
@@ -144,6 +146,7 @@
     schema:contentUrl <https://warp.da.ndl.go.jp/info:ndljp/pid/14460507/www.nier.go.jp/jugyourei/r03/idea-03.html> ; #授業アイデアHTMLのURL
     schema:name "令和3年度 中学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中数2021> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和3年度全国学力・学習状況調査 【中学校／数学】" ; #ラベル
@@ -189,6 +192,7 @@
     schema:contentUrl <https://warp.da.ndl.go.jp/info:ndljp/pid/14460507/www.nier.go.jp/jugyourei/r03/idea-04.html> ; #授業アイデアHTMLのURL
     schema:name "令和3年度 中学校数学の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2022> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和4年度全国学力・学習状況調査 【小学校／国語】" ; #ラベル
@@ -234,6 +238,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r04/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和4年度 小学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小算2022> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和4年度全国学力・学習状況調査 【小学校／算数】" ; #ラベル
@@ -279,6 +284,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r04/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和4年度 小学校算数の授業アイデア例" ;
     schema:numberOfItems "4" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小理2022> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和4年度全国学力・学習状況調査 【小学校／理科】" ; #ラベル
@@ -324,6 +330,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r04/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和4年度 小学校理科の授業アイデア例" ;
     schema:numberOfItems "4" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中国2022> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和4年度全国学力・学習状況調査 【中学校／国語】" ; #ラベル
@@ -369,6 +376,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r04/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和4年度 中学校国語の授業アイデア例" ;
     schema:numberOfItems "4" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中数2022> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和4年度全国学力・学習状況調査 【中学校／数学】" ; #ラベル
@@ -414,6 +422,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r04/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和4年度 中学校数学の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中理2022> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和4年度全国学力・学習状況調査 【中学校／理科】" ; #ラベル
@@ -459,6 +468,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r04/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和4年度 中学校理科の授業アイデア例" ;
     schema:numberOfItems "8" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2023> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和5年度全国学力・学習状況調査 【小学校／国語】" ; #ラベル
@@ -504,6 +514,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r05/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和5年度 小学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小算2023> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和5年度全国学力・学習状況調査 【小学校／算数】" ; #ラベル
@@ -549,6 +560,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r05/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和5年度 小学校算数の授業アイデア例" ;
     schema:numberOfItems "4" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中国2023> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和5年度全国学力・学習状況調査 【中学校／国語】" ; #ラベル
@@ -594,6 +606,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r05/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和5年度 中学校国語の授業アイデア例" ;
     schema:numberOfItems "4" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中数2023> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和5年度全国学力・学習状況調査 【中学校／数学】" ; #ラベル
@@ -639,6 +652,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r05/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和5年度 中学校数学の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中英2023> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和5年度全国学力・学習状況調査 【中学校／英語】" ; #ラベル
@@ -727,6 +741,7 @@
     schema:name "令和5年度 中学校英語の調査問題の動画のスクリプト" ;
     schema:description "「話すこと」の問題(話[1]～話[2])の動画のスクリプト" ;
     schema:numberOfPages "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2024> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和6年度全国学力・学習状況調査 【小学校／国語】" ; #ラベル
@@ -772,6 +787,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r06/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和6年度 小学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小算2024> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和6年度全国学力・学習状況調査 【小学校／算数】" ; #ラベル
@@ -817,6 +833,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r06/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和6年度 小学校算数の授業アイデア例" ;
     schema:numberOfItems "5" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中国2024> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和6年度全国学力・学習状況調査 【中学校／国語】" ; #ラベル
@@ -862,6 +879,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r06/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和6年度 中学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中数2024> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和6年度全国学力・学習状況調査 【中学校／数学】" ; #ラベル
@@ -907,6 +925,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r06/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和6年度 中学校数学の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2025> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和7年度全国学力・学習状況調査 【小学校／国語】" ; #ラベル
@@ -952,6 +971,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r07/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和7年度 小学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小算2025> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和7年度全国学力・学習状況調査 【小学校／算数】" ; #ラベル
@@ -997,6 +1017,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r07/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和7年度 小学校算数の授業アイデア例" ;
     schema:numberOfItems "4" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小理2025> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和7年度全国学力・学習状況調査 【小学校／理科】" ; #ラベル
@@ -1042,6 +1063,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r07/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和7年度 小学校理科の授業アイデア例" ;
     schema:numberOfItems "2" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中国2025> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和7年度全国学力・学習状況調査 【中学校／国語】" ; #ラベル
@@ -1087,6 +1109,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r07/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和7年度 中学校国語の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中数2025> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和7年度全国学力・学習状況調査 【中学校／数学】" ; #ラベル
@@ -1132,6 +1155,7 @@
     schema:contentUrl <https://www.nier.go.jp/jugyourei/r07/index.html> ; #授業アイデアHTMLのURL
     schema:name "令和7年度 中学校数学の授業アイデア例" ;
     schema:numberOfItems "3" .
+
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/中理2025> a <https://w3id.org/jp-naaa/Test>;
     schema:name "令和7年度全国学力・学習状況調査 【中学校／理科】" ; #ラベル

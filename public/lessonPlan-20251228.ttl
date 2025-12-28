@@ -6,8 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix cs: <http://www.w3.org/jp-cos/>.
-@prefix naaa: <http://www.w3.org/jp-naaa/>.
+@prefix cs: <https://www.w3.org/jp-cos/>.
+@prefix naaa: <https://www.w3.org/jp-naaa/>.
 #授業アイデア事例TTL
 <https://w3id.org/jp-naaa/小国2021-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2021-01/lessonPlan> .
 <https://w3id.org/jp-naaa/小国2021-01/lessonPlan> a <https://w3id.org/jp-naaa/LessonPlan> ;

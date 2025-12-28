@@ -5,8 +5,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix cs: <http://www.w3.org/jp-cos/>.
-@prefix naaa: <http://www.w3.org/jp-naaa/>.
+@prefix cs: <https://www.w3.org/jp-cos/>.
+@prefix naaa: <https://www.w3.org/jp-naaa/>.
 #TTL
 <https://w3id.org/jp-naaa/小国2021-01_01> schema:alternateName "調べたことについて，資料を使ってスピーチをする（津田梅子の紹介）" ;
     naaa:assessmentCriterion "思考・判断・表現" ;
