@@ -1,0 +1,24 @@
+<div class="row">
+<div class="col-md-12">
+  <h2>学力調査一覧</h2>
+  <%-
+    years = {}
+    param[:index_data].each do |e|
+      subject = e.keys.first
+      year = param[:data_global][subject]["http://purl.org/dc/elements/1.1/date"].first
+      years[year] ||= []
+      years[year] << subject
+    end
+    years.keys.sort.reverse.each do |year|
+  -%>
+    <h3><%=h year %>年度調査</h3>
+    <ul>
+      <%- years[year].sort_by{|s|
+        param[:data_global][s]["https://www.w3.org/jp-cos/subjectArea"].first
+      }.each do |s| -%>
+      <li><%= format_object(s, param[:data_global]) %></li>
+      <%- end -%>
+    </ul>
+    <%- end -%>
+</div>
+</div>
