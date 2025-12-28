@@ -2,4 +2,6 @@ base_uri: https://w3id.org/jp-naaa/
 site_title: 全国学力調査問題LOD
 output_dir: public/
 top_class: https://w3id.org/jp-naaa/Test
-subtitle_property: http://schema.org/alternateName
+subtitle_property_perclass:
+  https://w3id.org/jp-naaa/Section: http://schema.org/alternateName
+  https://w3id.org/jp-naaa/LessonPlan: http://schema.org/alternateName
