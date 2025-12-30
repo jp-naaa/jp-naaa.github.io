@@ -6,8 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix cs: <https://www.w3.org/jp-cos/>.
-@prefix naaa: <https://www.w3.org/jp-naaa/>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix naaa: <https://w3id.org/jp-naaa/>.
 #大問単位のTTL
 #大問全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2021> schema:hasPart <https://w3id.org/jp-naaa/小国2021-01> .
@@ -2689,7 +2689,7 @@
     naaa:answer <https://w3id.org/jp-naaa/中英2023-話01/answer> ; #正答例のPDFの情報
     naaa:document <https://w3id.org/jp-naaa/中英2023-話01/document> ; #解説資料のPDFの情報
     naaa:report <https://w3id.org/jp-naaa/中英2023-話01/report> ; #報告書PDFの情報
-    naaa:qestionVideo <https://w3id.org/jp-naaa/中英2023-話01/questionVideo> ;
+    naaa:questionVideo <https://w3id.org/jp-naaa/中英2023-話01/questionVideo> ;
     naaa:questionVideoScript <https://w3id.org/jp-naaa/中英2023-話01/questionVideoScript> ;
     naaa:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2017> . #対応する学習指導要領
 #大問に関連するリソースの定義
@@ -2746,7 +2746,7 @@
     naaa:answer <https://w3id.org/jp-naaa/中英2023-話02/answer> ; #正答例のPDFの情報
     naaa:document <https://w3id.org/jp-naaa/中英2023-話02/document> ; #解説資料のPDFの情報
     naaa:report <https://w3id.org/jp-naaa/中英2023-話02/report> ; #報告書PDFの情報
-    naaa:qestionVideo <https://w3id.org/jp-naaa/中英2023-話02/questionVideo> ;
+    naaa:questionVideo <https://w3id.org/jp-naaa/中英2023-話02/questionVideo> ;
     naaa:questionVideoScript <https://w3id.org/jp-naaa/中英2023-話02/questionVideoScript> ;
     naaa:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2017> . #対応する学習指導要領
 #大問に関連するリソースの定義

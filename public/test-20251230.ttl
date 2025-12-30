@@ -6,8 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix cs: <https://www.w3.org/jp-cos/>.
-@prefix naaa: <https://www.w3.org/jp-naaa/>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix naaa: <https://w3id.org/jp-naaa/>.
 #調査問題全体TTL
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2021> a <https://w3id.org/jp-naaa/Test>;
@@ -668,7 +668,7 @@
     naaa:report <https://w3id.org/jp-naaa/中英2023/report> ; #報告書PDFの情報
     naaa:lessonPlan <https://w3id.org/jp-naaa/中英2023/lessonPlan> ; #授業アイデアの情報
     naaa:questionAudio <https://w3id.org/jp-naaa/中英2023/questionAudio> ;
-    naaa:qestionVideo <https://w3id.org/jp-naaa/中英2023/questionVideo> ;
+    naaa:questionVideo <https://w3id.org/jp-naaa/中英2023/questionVideo> ;
     naaa:questionAudioScript <https://w3id.org/jp-naaa/中英2023/questionAudioScript> ;
     naaa:questionVideoScript <https://w3id.org/jp-naaa/中英2023/questionVideoScript> ;
     naaa:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2017> . #対応する学習指導要領

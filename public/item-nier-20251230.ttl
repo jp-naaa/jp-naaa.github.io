@@ -5,8 +5,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix cs: <https://www.w3.org/jp-cos/>.
-@prefix naaa: <https://www.w3.org/jp-naaa/>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix naaa: <https://w3id.org/jp-naaa/>.
 #TTL
 <https://w3id.org/jp-naaa/小国2021-01_01>
     naaa:assessmentCriterion "思考・判断・表現" ;
