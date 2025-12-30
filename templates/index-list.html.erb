@@ -5,7 +5,7 @@
     years = {}
     param[:index_data].each do |e|
       subject = e.keys.first
-      year = param[:data_global][subject]["http://purl.org/dc/terms/"].first
+      year = param[:data_global][subject]["http://purl.org/dc/terms/date"].first
       years[year] ||= []
       years[year] << subject
     end
