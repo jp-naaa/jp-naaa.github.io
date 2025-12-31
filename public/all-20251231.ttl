@@ -5,13 +5,18 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix naaa: <https://w3id.org/jp-naaa/>.
+@prefix nier: <http://dl.nier.go.jp/library/vocab/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix pav: <http://purl.org/pav/>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix schema: <http://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix textbook: <https://w3id.org/jp-textbook/>.
+@prefix textbook-rc: <http://dl.nier.go.jp/library/vocab/textbook-rc/>.
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
 @prefix void: <http://rdfs.org/ns/void#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
@@ -29718,6 +29723,821 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和7年度 中学校理科 [9]の報告書（PDF）" ;
     schema:pagination "123～130" ;
     schema:numberOfPages "8" .
+<https://w3id.org/jp-naaa/AudioObjectShape> a sh:NodeShape;
+  sh:targetClass <http://schema.org/AudioObject>;
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和5年度 中学校英語 聞・読・書[1]の調査問題の音声";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/description>;
+    sh:name "説明"@ja;
+    sh:name "Description"@en;
+    skos:example "「聞くこと、読むこと、書くこと」のうち「聞くこと」の問題(聞・読・書[1]～聞・読・書[4])の音声";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <http://schema.org/contentUrl>;
+    sh:name "本文URL"@ja;
+    sh:name "Body URL"@en;
+    skos:example <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_onsei.mp3#t=45>;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <http://schema.org/startTime>;
+    sh:name "開始時間（秒）"@ja;
+    sh:name "Start time（秒）"@en;
+    skos:example "PT45S";
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <http://schema.org/numberOfPages>;
+    sh:name "総時間（秒）"@ja;
+    sh:name "Total time（秒）"@en;
+    skos:example "PT140S";
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <http://schema.org/transcript>;
+    sh:name "スクリプト（音声）"@ja;
+    sh:name "Audio Script"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/questionAudioScript>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 6
+  ];
+  sh:property [
+    sh:path <http://schema.org/encodingFormat>;
+    sh:name "エンコーディングフォーマット"@ja;
+    sh:name "Encording format"@en;
+    skos:example "audio/mpeg";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 7
+  ];
+  sh:property [
+    sh:path <http://schema.org/hasPart>;
+    sh:name "下位のもの"@ja;
+    sh:name "Lower lebel part"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/questionAudion>;
+    sh:class <http://schema.org/AudioObject>;
+    sh:order 8
+  ].
+<https://w3id.org/jp-naaa/ItemShape> a sh:NodeShape;
+  sh:targetClass <https://w3id.org/jp-naaa/Item>;
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/itemNumber>;
+    sh:name "小問番号"@ja;
+    sh:name "Item number"@en;
+    skos:example "聞・読・書[1](1)";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和5年度 中学校英語 聞・読・書[1](1)";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/grade>;
+    sh:name "指導学年"@ja;
+    skos:example "5";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/cosItem>;
+    sh:name "学習指導要領の細目"@ja;
+    sh:name "Course Of Study Item"@en;
+    skos:example <https://w3id.org/jp-cos/83H1203111000000>;
+    sh:class <https://w3id.org/jp-cos/Item>;
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/assessmentCriterion>;
+    sh:name "評価の観点"@ja;
+    skos:example "思考・判断・表現";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/itemType>;
+    sh:name "問題形式"@ja;
+    skos:example "選択式";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 6
+  ];
+  sh:property [
+    sh:path <http://schema.org/description>;
+    sh:name "問題の概要"@ja;
+    skos:example "津田梅子の二つの業績を明確に伝えるために，【スピーチメモ】と【スピーチ】の練習で上野さんが話した構成の説明として適切なものを選択する";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 7
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/assessmentIntent>;
+    sh:name "出題の趣旨"@ja;
+    skos:example "目的に応じ，話の内容が明確になるようにスピーチの構成を考える";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 8
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/correctAnswerRate>;
+    sh:name "正答率"@ja;
+    skos:example "77.6";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#decimal>;
+    sh:order 9
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/nonResponseRate>;
+    sh:name "無解答率"@ja;
+    skos:example "0.3";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#decimal>;
+    sh:order 10
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/question>;
+    sh:name "調査問題"@ja;
+    sh:name "Question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/question>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 11
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/answer>;
+    sh:name "正答例"@ja;
+    sh:name "Answer"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/answer>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 12
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/document>;
+    sh:name "解説資料"@ja;
+    sh:name "Document"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/document>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 13
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/report>;
+    sh:name "報告書"@ja;
+    sh:name "Report"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/report>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 14
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionAudio>;
+    sh:name "調査問題の音声"@ja;
+    sh:name "Audio of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/questionAudio>;
+    sh:class <https://w3id.org/jp-naaa/AudioObject>;
+    sh:order 15
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/qestionVideo>;
+    sh:name "調査問題の動画"@ja;
+    sh:name "Video of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/questionAudioScript>;
+    sh:class <https://w3id.org/jp-naaa/VideoObject>;
+    sh:order 16
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionAudioScript>;
+    sh:name "調査問題のスクリプト(音声)"@ja;
+    sh:name "Script for audio of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-話01_01/item/questionVideo>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 17
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionVideoScript>;
+    sh:name "調査問題のスクリプト(動画)"@ja;
+    sh:name "Script for video of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-話01_01/item/questionVideoScript>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 18
+  ];
+  sh:property [
+    sh:path <http://purl.org/dc/terms/date>;
+    sh:name "調査年度"@ja;
+    sh:name "Test year"@en;
+    skos:example "2023"^^xsd:gYear;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#gYear>;
+    sh:order 19
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/school>;
+    sh:name "学校種別"@ja;
+    sh:name "Type of schools"@en;
+    skos:example <https://w3id.org/jp-cos/school/LowerSecondary>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/cs/School>;
+    sh:order 20
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/subjectArea>;
+    sh:name "教科"@ja;
+    sh:name "Subject area"@en;
+    skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/英語>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/cs/SubjectArea>;
+    sh:order 21
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/courseOfStudy>;
+    sh:name "対応する学習指導要領"@ja;
+    sh:name "Course of study"@en;
+    skos:example <https://w3id.org/jp-cos/LowerSecondary/2017>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/jp-cos/CourseOfStudy>;
+    sh:order 22
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/sectionNumber>;
+    sh:name "大問番号"@ja;
+    sh:name "Section number"@en;
+    skos:example "聞・読・書[1]";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 23
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/subSectionNumber>;
+    sh:name "大問枝番"@ja;
+    sh:name "Subsection Number"@en;
+    sh:description "個別の小問を識別する番号。大問の内部で用いられる中位区分（大問内区分）を表す番号。大問番号（naaa:sectionNumber）の下位に位置し、冊子上の表記（例：「一」「二」「Ⅰ」「A」など）を文字列として記録する。大問内での設問群や小問のまとまりを識別するために用いる。"@ja;
+    skos:example "(1)";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 24
+  ].
+<https://w3id.org/jp-naaa/LessonPlanShape> a sh:NodeShape;
+  sh:targetClass <https://w3id.org/jp-naaa/LessonPlan>;
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和6年度 小学校算数のアイデア事例（1）";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/alternateName>;
+    sh:name "別タイトル"@ja;
+    sh:name "Alternate title"@en;
+    skos:example "「たすのかな？ひくのかな？Part１」〜場面を表す正しい図を選び、数量の関係を捉える〜";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <http://schema.org/contentUrl>;
+    sh:name "本文URL"@ja;
+    sh:name "Body URL"@en;
+    skos:example <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24pmath_idea_01.pdf#page=5>;
+    sh:minCount 1;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <http://schema.org/pagination>;
+    sh:name "ページ範囲"@ja;
+    sh:name "Pagination"@en;
+    skos:example "23-25";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <http://schema.org/numberOfPages>;
+    sh:name "総ページ数"@ja;
+    sh:name "Total pages"@en;
+    skos:example "3";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#integer>;
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <http://schema.org/encodingFormat>;
+    sh:name "エンコーディングフォーマット"@ja;
+    sh:name "Encording format"@en;
+    skos:example "application/pdf";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 6
+  ].
+<https://w3id.org/jp-naaa/MediaObjectShape> a sh:NodeShape;
+  sh:targetClass <http://schema.org/MediaObject>;
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和5年度 中学校英語の調査問題（PDF）";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/description>;
+    sh:name "説明"@ja;
+    sh:name "Description"@en;
+    skos:example "「聞くこと、読むこと、書くこと」の問題(聞・読・書[1]～聞・読・書[10])の調査問題テキスト";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <http://schema.org/contentUrl>;
+    sh:name "本文URL"@ja;
+    sh:name "Body URL"@en;
+    skos:example <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo.pdf>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <http://schema.org/pagination>;
+    sh:name "ページ範囲"@ja;
+    sh:name "Pagination"@en;
+    skos:example "中英-1～中英-3";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <http://schema.org/numberOfPages>;
+    sh:name "総ページ数"@ja;
+    sh:name "Total pages"@en;
+    skos:example "26";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#integer>;
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <http://schema.org/encodingFormat>;
+    sh:name "エンコーディングフォーマット"@ja;
+    sh:name "Encording format"@en;
+    skos:example "application/pdf";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 6
+  ];
+  sh:property [
+    sh:path <http://schema.org/hasPart>;
+    sh:name "下位のもの"@ja;
+    sh:name "Lower lebel part"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/question>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 7
+  ].
+<https://w3id.org/jp-naaa/SectionShape> a sh:NodeShape;
+  sh:targetClass <https://w3id.org/jp-naaa/Section>;
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/sectionNumber>;
+    sh:name "大問番号"@ja;
+    sh:name "Section number"@en;
+    skos:example "聞・読・書[1]";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和5年度 中学校英語 聞・読・書[1]";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <http://schema.org/alternateName>;
+    sh:name "別タイトル"@ja;
+    sh:name "Alternate title"@en;
+    skos:example "情報を正確に聞き取る";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <http://schema.org/hasPart>;
+    sh:name "小問"@ja;
+    sh:name "Item"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item>;
+    sh:class <https://w3id.org/jp-naaa/Item>;
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/question>;
+    sh:name "調査問題"@ja;
+    sh:name "Question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/question>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/answer>;
+    sh:name "正答例"@ja;
+    sh:name "Answer"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/answer>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 6
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/document>;
+    sh:name "解説資料"@ja;
+    sh:name "Document"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/document>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 7
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/report>;
+    sh:name "報告書"@ja;
+    sh:name "Report"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/report>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 8
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/lessonPlan>;
+    sh:name "授業アイデア例"@ja;
+    sh:name "Lesson plan"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞03/lessonPlan>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 9
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionAudio>;
+    sh:name "調査問題の音声"@ja;
+    sh:name "Audio of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/questionAudio>;
+    sh:class <https://w3id.org/jp-naaa/AudioObject>;
+    sh:order 10
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/qestionVideo>;
+    sh:name "調査問題の動画"@ja;
+    sh:name "Video of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-話01/questionVideo>;
+    sh:class <https://w3id.org/jp-naaa/VideoObject>;
+    sh:order 11
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionAudioScript>;
+    sh:name "調査問題のスクリプト(音声)"@ja;
+    sh:name "Script for audio of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01/questionAudioScript>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 12
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionVideoScript>;
+    sh:name "調査問題のスクリプト(動画)"@ja;
+    sh:name "Script for video of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-話01/questionVideoScript>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 13
+  ];
+  sh:property [
+    sh:path <http://purl.org/dc/terms/date>;
+    sh:name "調査年度"@ja;
+    sh:name "Test year"@en;
+    skos:example "2025"^^xsd:gYear;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#gYear>;
+    sh:order 14
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/school>;
+    sh:name "学校種別"@ja;
+    sh:name "Type of schools"@en;
+    skos:example <https://w3id.org/jp-cos/school/LowerSecondary>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/cs/School>;
+    sh:order 15
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/subjectArea>;
+    sh:name "教科"@ja;
+    sh:name "Subject area"@en;
+    skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/英語>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/cs/SubjectArea>;
+    sh:order 16
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/courseOfStudy>;
+    sh:name "対応する学習指導要領"@ja;
+    sh:name "Course of study"@en;
+    skos:example <https://w3id.org/jp-cos/LowerSecondary/2017>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/jp-cos/CourseOfStudy>;
+    sh:order 17
+  ].
+<https://w3id.org/jp-naaa/TestShape> a sh:NodeShape;
+  sh:targetClass <https://w3id.org/jp-naaa/Test>;
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和5年度全国学力・学習状況調査 【中学校／英語】";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/hasPart>;
+    sh:name "大問"@ja;
+    sh:name "Section"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01>;
+    sh:minCount 1;
+    sh:class <https://w3id.org/jp-naaa/Section>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/question>;
+    sh:name "調査問題"@ja;
+    sh:name "Question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/question>;
+    sh:minCount 1;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/answer>;
+    sh:name "正答例"@ja;
+    sh:name "Answer"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/answer1>;
+    sh:minCount 1;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/document>;
+    sh:name "解説資料"@ja;
+    sh:name "Document"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/document>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/report>;
+    sh:name "報告書"@ja;
+    sh:name "Report"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/report>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 6
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/lessonPlan>;
+    sh:name "授業アイデア例"@ja;
+    sh:name "Lesson plan"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/lessonPlan>;
+    sh:class <http://schema.org/WebPage>;
+    sh:order 7
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionAudio>;
+    sh:name "調査問題の音声"@ja;
+    sh:name "Audio of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/questionAudio>;
+    sh:class <https://w3id.org/jp-naaa/AudioObject>;
+    sh:order 8
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/qestionVideo>;
+    sh:name "調査問題の動画"@ja;
+    sh:name "Video of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/questionVideo>;
+    sh:class <https://w3id.org/jp-naaa/VideoObject>;
+    sh:order 9
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionAudioScript>;
+    sh:name "調査問題のスクリプト(音声)"@ja;
+    sh:name "Script for audio of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/questionAudioScript>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 10
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/questionVideoScript>;
+    sh:name "調査問題のスクリプト(動画)"@ja;
+    sh:name "Script for video of question"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023/questionVideoScript>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 11
+  ];
+  sh:property [
+    sh:path <http://purl.org/dc/terms/date>;
+    sh:name "調査年度"@ja;
+    sh:name "Test year"@en;
+    skos:example "\"2023\""^^xsd:gYear;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#gYear>;
+    sh:order 12
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/school>;
+    sh:name "学校種別"@ja;
+    sh:name "Type of schools"@en;
+    sh:description "対応する学校種別を<code>cs:school/<var>学校種別</var></code> として示される学校リソースと関連付ける"@ja;
+    sh:description "Link to the type resource of schools, represented as <code>cs:school/<var>type of school</var></code>."@en;
+    skos:example <https://w3id.org/jp-cos/school/LowerSecondary>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/cs/School>;
+    sh:order 13
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/subjectArea>;
+    sh:name "教科"@ja;
+    sh:name "Subject area"@en;
+    sh:description "<code>cs<var>学校種別</var>/<var>学習指導要領公示年</var>/<var>教科</var></code>として示される教科リソースと関連付ける"@ja;
+    sh:description "Link to the subject area resource, represented as <code>cs<var>type of school</var>/<var>year of curriculum guideline</var>/<var>subject area</var></code>."@en;
+    skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/英語>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/cs/SubjectArea>;
+    sh:order 14
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-naaa/courseOfStudy>;
+    sh:name "対応する学習指導要領"@ja;
+    sh:name "Course of study"@en;
+    skos:example <https://w3id.org/jp-cos/LowerSecondary/2017>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/jp-cos/CourseOfStudy>;
+    sh:order 15
+  ];
+  sh:property [
+    sh:path <http://purl.org/dc/terms/source>;
+    sh:name "出典"@ja;
+    sh:name "Source"@en;
+    skos:example <https://www.nier.go.jp/23chousa/23chousa.html>;
+    sh:minCount 1;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 16
+  ];
+  sh:property [
+    sh:path <http://schema.org/alternateName>;
+    sh:name "略タイトル"@ja;
+    sh:name "Short title"@en;
+    skos:example "令和5年度 中学校英語\"";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 17
+  ].
+<https://w3id.org/jp-naaa/VideoObjectShape> a sh:NodeShape;
+  sh:targetClass <http://schema.org/VideoObject>;
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和5年度 中学校英語 話[1]の調査問題の動画";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/description>;
+    sh:name "説明"@ja;
+    sh:name "Description"@en;
+    skos:example "「話すこと」の問題(話[1]～話[2])の動画";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <http://schema.org/contentUrl>;
+    sh:name "本文URL"@ja;
+    sh:name "Body URL"@en;
+    skos:example <https://youtu.be/cG_BvVwYc-g?t=145>;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <http://schema.org/startTime>;
+    sh:name "開始時間（秒）"@ja;
+    sh:name "Start time（秒）"@en;
+    skos:example "PT145S";
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <http://schema.org/numberOfPages>;
+    sh:name "総時間（秒）"@ja;
+    sh:name "Total time（秒）"@en;
+    skos:example "PT207S";
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <http://schema.org/transcript>;
+    sh:name "スクリプト（動画）"@ja;
+    sh:name "Video Script"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-話01/questionVideoScript>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 6
+  ];
+  sh:property [
+    sh:path <http://schema.org/hasPart>;
+    sh:name "下位のもの"@ja;
+    sh:name "Lower lebel part"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-話01_01/item/questionVideo>;
+    sh:class <http://schema.org/AudioObject>;
+    sh:order 7
+  ].
+<https://w3id.org/jp-naaa/WebPageShape> a sh:NodeShape;
+  sh:targetClass <http://schema.org/WebPage>;
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "タイトル"@ja;
+    sh:name "Title"@en;
+    skos:example "令和5年度 中学校英語の授業アイデア例";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/contentUrl>;
+    sh:name "本文URL"@ja;
+    sh:name "Body URL"@en;
+    skos:example <https://www.nier.go.jp/jugyourei/r05/index.html>;
+    sh:minCount 1;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <http://schema.org/numberOfItems>;
+    sh:name "アイテム数"@ja;
+    sh:name "Number of items"@en;
+    skos:example "4";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#integer>;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <http://schema.org/encodingFormat>;
+    sh:name "エンコーディングフォーマット"@ja;
+    sh:name "Encording format"@en;
+    skos:example "text/html";
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <http://schema.org/hasPart>;
+    sh:name "下位のもの"@ja;
+    sh:name "Lower lebel part"@en;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞03/lessonPlan>;
+    sh:class <http://schema.org/MediaObject>;
+    sh:order 5
+  ].
 #調査問題全体TTL
 #テスト全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2021> a <https://w3id.org/jp-naaa/Test>;
