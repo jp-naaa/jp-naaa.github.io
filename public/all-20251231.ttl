@@ -29961,7 +29961,7 @@ naaa:subSectionNumber a rdfs:Property;
     skos:example <https://w3id.org/jp-cos/school/LowerSecondary>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/cs/School>;
+    sh:class <https://w3id.org/jp-cos/School>;
     sh:order 20
   ];
   sh:property [
@@ -29971,7 +29971,7 @@ naaa:subSectionNumber a rdfs:Property;
     skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/英語>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/cs/SubjectArea>;
+    sh:class <https://w3id.org/jp-cos/SubjectArea>;
     sh:order 21
   ];
   sh:property [
@@ -30255,7 +30255,7 @@ naaa:subSectionNumber a rdfs:Property;
     skos:example <https://w3id.org/jp-cos/school/LowerSecondary>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/cs/School>;
+    sh:class <https://w3id.org/jp-cos/School>;
     sh:order 15
   ];
   sh:property [
@@ -30265,7 +30265,7 @@ naaa:subSectionNumber a rdfs:Property;
     skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/英語>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/cs/SubjectArea>;
+    sh:class <https://w3id.org/jp-cos/SubjectArea>;
     sh:order 16
   ];
   sh:property [
@@ -30392,7 +30392,7 @@ naaa:subSectionNumber a rdfs:Property;
     skos:example <https://w3id.org/jp-cos/school/LowerSecondary>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/cs/School>;
+    sh:class <https://w3id.org/jp-cos/School>;
     sh:order 13
   ];
   sh:property [
@@ -30404,7 +30404,7 @@ naaa:subSectionNumber a rdfs:Property;
     skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/英語>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/cs/SubjectArea>;
+    sh:class <https://w3id.org/jp-cos/SubjectArea>;
     sh:order 14
   ];
   sh:property [
@@ -30489,7 +30489,7 @@ naaa:subSectionNumber a rdfs:Property;
     sh:name "下位のもの"@ja;
     sh:name "Lower lebel part"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023-話01_01/item/questionVideo>;
-    sh:class <http://schema.org/AudioObject>;
+    sh:class <http://schema.org/VideoObject>;
     sh:order 7
   ].
 <https://w3id.org/jp-naaa/WebPageShape> a sh:NodeShape;
