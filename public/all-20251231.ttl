@@ -30535,7 +30535,7 @@ naaa:subSectionNumber a rdfs:Property;
     sh:name "下位のもの"@ja;
     sh:name "Lower lebel part"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023-聞03/lessonPlan>;
-    sh:class <http://schema.org/MediaObject>;
+    sh:class <https://w3id.org/jp-naaa/LessonPlan>;
     sh:order 5
   ].
 #調査問題全体TTL
