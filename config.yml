@@ -1,6 +1,7 @@
 base_uri: https://w3id.org/jp-naaa/
 site_title: 全国学力調査LOD
 admin_name: 教育データプラス研究会
+copyright_year: 2026-
 output_dir: public/
 top_class: https://w3id.org/jp-naaa/Test
 locale: ja
