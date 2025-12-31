@@ -25273,7 +25273,7 @@ naaa:subSectionNumber a rdfs:Property;
 <https://w3id.org/jp-naaa/中英2023-聞01/questionAudioScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=1> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=1> ;
     schema:name "令和5年度 中学校英語 聞・読・書[1]の調査問題の音声のスクリプト" ;
     schema:pagination "1" ;
     schema:numberOfPages 1 .
@@ -25339,7 +25339,7 @@ naaa:subSectionNumber a rdfs:Property;
 <https://w3id.org/jp-naaa/中英2023-聞02/questionAudioScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=1> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=1> ;
     schema:name "令和5年度 中学校英語 聞・読・書[2]の調査問題の音声のスクリプト" ;
     schema:pagination "1" ;
     schema:numberOfPages 1 .
@@ -25405,7 +25405,7 @@ naaa:subSectionNumber a rdfs:Property;
 <https://w3id.org/jp-naaa/中英2023-聞03/questionAudioScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=2> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=2> ;
     schema:name "令和5年度 中学校英語 聞・読・書[3]の調査問題の音声のスクリプト" ;
     schema:pagination "2" ;
     schema:numberOfPages 1 .
@@ -25471,7 +25471,7 @@ naaa:subSectionNumber a rdfs:Property;
 <https://w3id.org/jp-naaa/中英2023-聞04/questionAudioScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=2> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf#page=2> ;
     schema:name "令和5年度 中学校英語 聞・読・書[4]の調査問題の音声のスクリプト" ;
     schema:pagination "2" ;
     schema:numberOfPages 1 .
@@ -25809,7 +25809,7 @@ naaa:subSectionNumber a rdfs:Property;
 <https://w3id.org/jp-naaa/中英2023-話01/questionVideoScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_speaking-script.pdf#page=1> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_speaking-script.pdf#page=1> ;
     schema:name "令和5年度 中学校英語 話[1]の調査問題の動画のスクリプト" ;
     schema:pagination "1-2" ;
     schema:numberOfPages 2 .
@@ -25865,7 +25865,7 @@ naaa:subSectionNumber a rdfs:Property;
 <https://w3id.org/jp-naaa/中英2023-話02/questionVideoScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_speaking-script.pdf#page=3> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_speaking-script.pdf#page=3> ;
     schema:name "令和5年度 中学校英語 話[2]の調査問題の動画のスクリプト" ;
     schema:pagination "3" ;
     schema:numberOfPages 1 .
@@ -31239,7 +31239,7 @@ naaa:subSectionNumber a rdfs:Property;
 <https://w3id.org/jp-naaa/中英2023/questionAudioScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf> ;
     schema:name "令和5年度 中学校英語の調査問題の音声のスクリプト" ;
     schema:description "「聞くこと、読むこと、書くこと」のうち「聞くこと」の問題(聞・読・書[1]～聞・読・書[4])の音声のスクリプト" ;
     schema:numberOfPages 2 .

@@ -723,7 +723,7 @@
 <https://w3id.org/jp-naaa/中英2023/questionAudioScript>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
-    schema:contenturl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf> ;
+    schema:contentUrl <https://www.nier.go.jp/23chousa/pdf/23mondai_chuu_eigo_listening-script.pdf> ;
     schema:name "令和5年度 中学校英語の調査問題の音声のスクリプト" ;
     schema:description "「聞くこと、読むこと、書くこと」のうち「聞くこと」の問題(聞・読・書[1]～聞・読・書[4])の音声のスクリプト" ;
     schema:numberOfPages 2 .
