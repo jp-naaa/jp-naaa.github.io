@@ -210,15 +210,15 @@
     sh:name "調査問題の音声"@ja;
     sh:name "Audio of question"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/questionAudio>;
-    sh:class <https://w3id.org/jp-naaa/AudioObject>;
+    sh:class <http://schema.org/AudioObject>;
     sh:order 15
   ];
   sh:property [
-    sh:path <https://w3id.org/jp-naaa/qestionVideo>;
+    sh:path <https://w3id.org/jp-naaa/questionVideo>;
     sh:name "調査問題の動画"@ja;
     sh:name "Video of question"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/questionAudioScript>;
-    sh:class <https://w3id.org/jp-naaa/VideoObject>;
+    sh:class <http://schema.org/VideoObject>;
     sh:order 16
   ];
   sh:property [
@@ -507,15 +507,15 @@
     sh:name "調査問題の音声"@ja;
     sh:name "Audio of question"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023-聞01/questionAudio>;
-    sh:class <https://w3id.org/jp-naaa/AudioObject>;
+    sh:class <http://schema.org/AudioObject>;
     sh:order 10
   ];
   sh:property [
-    sh:path <https://w3id.org/jp-naaa/qestionVideo>;
+    sh:path <https://w3id.org/jp-naaa/questionVideo>;
     sh:name "調査問題の動画"@ja;
     sh:name "Video of question"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023-話01/questionVideo>;
-    sh:class <https://w3id.org/jp-naaa/VideoObject>;
+    sh:class <http://schema.org/VideoObject>;
     sh:order 11
   ];
   sh:property [
@@ -643,15 +643,15 @@
     sh:name "調査問題の音声"@ja;
     sh:name "Audio of question"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023/questionAudio>;
-    sh:class <https://w3id.org/jp-naaa/AudioObject>;
+    sh:class <http://schema.org/AudioObject>;
     sh:order 8
   ];
   sh:property [
-    sh:path <https://w3id.org/jp-naaa/qestionVideo>;
+    sh:path <https://w3id.org/jp-naaa/questionVideo>;
     sh:name "調査問題の動画"@ja;
     sh:name "Video of question"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023/questionVideo>;
-    sh:class <https://w3id.org/jp-naaa/VideoObject>;
+    sh:class <http://schema.org/VideoObject>;
     sh:order 9
   ];
   sh:property [
