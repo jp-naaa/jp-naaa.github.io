@@ -8,6 +8,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix pav: <http://purl.org/pav/>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix schema: <http://schema.org/>.
 @prefix textbook: <https://w3id.org/jp-textbook/>.
@@ -22953,6 +22954,135 @@ _:v1.0 a void:Dataset;
     schema:pagination "129-130" ;
     schema:numberOfPages "2" .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-09/lessonPlan> .
+# Class
+naaa:Test a rdfs:Class;
+    rdfs:label "全国学力調査";
+    rdfs:comment "毎年実施される「全国学力調査」の各教科ごとの調査内容を表現するクラス";
+    rdfs:subClassOf schema:Quiz .
+naaa:Section a rdfs:Class;
+    rdfs:label "大問";
+    rdfs:comment "「全国学力調査」の各教科ごとの大問レベルの内容を表現するクラス";
+    rdfs:subClassOf schema:Quiz .
+naaa:Item a rdfs:Class;
+    rdfs:label "小問";
+    rdfs:comment "「全国学力調査」の各教科ごとの小問レベルの内容を表現するクラス";
+    rdfs:subClassOf schema:Section .
+naaa:LessonPlan a rdfs:Class;
+    rdfs:label "授業アイデア例";
+    rdfs:comment "「全国学力調査」の各教科ごとの設問解説に付された学習内容の授業アイデア例を表現するクラス";
+    rdfs:subClassOf schema:LearningResource .
+# Property
+naaa:answer a rdfs:Property;
+    rdfs:label "正答例";
+    rdfs:comment "問題に対応する正答例への関連関係を示すプロパティ";
+    #rdfs:domain
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range schema:MediaObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:assessmentCriterion a rdfs:Property;
+    rdfs:label "評価の観点";
+    rdfs:comment "問題に対応する評価の観点を示すプロパティ";
+    rdfs:domain naaa:Item;
+    rdfs:range rdfs:Literal; 
+    rdfs:subPropertyOf schema:assesses .
+naaa:assessmentIntent a rdfs:Property;
+    rdfs:label "出題の趣旨";
+    rdfs:comment "問題に対応する評価の観点を示すプロパティ";
+    rdfs:domain naaa:Item;
+    rdfs:range rdfs:Literal;
+    rdfs:subPropertyOf schema:assesses .
+naaa:correctAnswerRate a rdfs:Property;
+    rdfs:label "正答率";
+    rdfs:comment "問題に対して児童生徒が正答した割合を百分率で示すプロパティ";
+    rdfs:domain rdfs:Item;
+    rdfs:range naaa:rdfs:Literal .
+    #rdfs:subPropertyOf  .
+naaa:courseOfStudy a rdfs:Property;
+    rdfs:label "対応する学習指導要領";
+    rdfs:comment "問題に対応する学習指導要領を示すプロパティ";
+    #rdfs:domain 
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range cs:Item;
+    rdfs:subPropertyOf dct:relation .
+naaa:document a rdfs:Property;
+    rdfs:label "解説資料";
+    rdfs:comment "問題に対応する解説資料への関連関係を示すプロパティ";
+    #rdfs:domain 
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range naaa:MediaObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:itemNumber a rdfs:Property;
+    rdfs:label "小問番号";
+    rdfs:comment "個別の小問を識別する番号";
+    rdfs:domain naaa:Item;
+    rdfs:range rdfs:Literal;
+    rdfs:subPropertyOf schema:identifier .
+naaa:itemType a rdfs:Property;
+    rdfs:label "問題形式";
+    rdfs:comment "問題の回答形式を示すプロパティ。主に、選択式、短答式、記述式の3種類";
+    rdfs:domain rdfs:Item;
+    rdfs:range rdfs:Literal .
+    #rdfs:subPropertyOf  .
+naaa:lessonPlan a rdfs:Property;
+    rdfs:label "授業アイデア例";
+    rdfs:comment "問題に対応する授業アイデア例への関連関係を示すプロパティ";
+    schema:domainIncludes naaa:Section, naaa:Test;
+    schema:rangeIncludes schema:Webpage, naaa:LessonPlan;
+    rdfs:subPropertyOf dct:relation .
+naaa:nonResponseRate a rdfs:Property;
+    rdfs:label "無解答率";
+    rdfs:comment "問題に対して児童生徒が解答しなかった割合を百分率で示すプロパティ";
+    rdfs:domain naaa:Item;
+    rdfs:range rdfs:Literal .
+    #rdfs:subPropertyOf .
+naaa:question a rdfs:Property;
+    rdfs:label "調査問題";
+    rdfs:comment "調査問題テキストそのものへの関連関係を示すプロパティ";
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range schema:MediaObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:questionAudio a rdfs:Property;
+    rdfs:label "調査問題（音声）";
+    rdfs:comment "調査問題（音声）への関連関係を示すプロパティ";
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range schema:AudioObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:questionAudioScript a rdfs:Property;
+    rdfs:label "調査問題（音声スクリプト）";
+    rdfs:comment "調査問題（音声のスクリプト）への関連関係を示すプロパティ";
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range schema:MediaObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:questionVideo a rdfs:Property;
+    rdfs:label "調査問題（動画）";
+    rdfs:comment "調査問題（動画）への関連関係を示すプロパティ";
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range schema:VideoObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:questionVideoScript a rdfs:Property;
+    rdfs:label "調査問題（動画スクリプト）";
+    rdfs:comment "調査問題（動画のスクリプト）への関連関係を示すプロパティ";
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range schema:MediaObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:report a rdfs:Property;
+    rdfs:label "報告書";
+    rdfs:comment "全国学力・学習状況調査 報告書への関連関係を示すプロパティ";
+    schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
+    rdfs:range schema:MediaObject;
+    rdfs:subPropertyOf dct:relation .
+naaa:sectionNumber a rdfs:Property;
+    rdfs:label "大問番号";
+    rdfs:comment "個別の大問を識別する番号";
+    rdfs:domain naaa:Item;
+    rdfs:range rdfs:Literal;
+    rdfs:subPropertyOf schema:identifier .
+naaa:subSectionNumber a rdfs:Property;
+    rdfs:label "大問枝番";
+    rdfs:comment "個別の小問を識別する番号。大問の内部で用いられる中位区分（大問内区分）を表す番号。大問番号（naaa:sectionNumber）の下位に位置し、冊子上の表記（例：「一」「二」「Ⅰ」「A」など）を文字列として記録する。大問内での設問群や小問のまとまりを識別するために用いる。";
+    rdfs:domain naaa:Item;
+    rdfs:range rdfs:Literal;
+    rdfs:subPropertyOf schema:identifier .
 #大問単位のTTL
 #大問全体についてのリソースの定義
 <https://w3id.org/jp-naaa/小国2021> schema:hasPart <https://w3id.org/jp-naaa/小国2021-01> .
