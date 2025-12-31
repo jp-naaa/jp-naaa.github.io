@@ -17,9 +17,17 @@
 _:toplevel a void:Dataset ;
     dct:title "全国学力調査LOD"@ja ;
     dct:title "National Assessment of Academic Ability (NAAA) LOD"@en ;
-    dct:description "「全国学力調査」の問題・解説等をまとめたLinked Open Data (LOD)データセットです"@ja ;
+    dct:description "「全国学力調査・学習状況調査」の問題・解説等をまとめた Linked Open Data (LOD) データセットです。"@ja ;
     dct:description "This is a Linked Open Data (LOD) dataset that compiles questions and descriptions from the National Academic Ability Survey (NAAA) in Japan."@en;
-    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:license [
+        rdf:value <https://creativecommons.org/licenses/by/4.0/>;
+        rdfs:label "クリエイティブコモンズ・ライセンス 表示 (CC BY)";
+        foaf:thumbnail <https://licensebuttons.net/l/by/4.0/88x31.png>
+    ];
+    prov:wasDerivedFrom [
+        rdf:value <https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm>;
+        rdfs:label "全国学力調査・学習状況調査"
+    ];
     foaf:homepage <https://w3id.org/jp-naaa/>;
     pav:hasCurrentVersion _:v1.0 .
 _:v1.0 a void:Dataset;
@@ -30,7 +38,7 @@ _:v1.0 a void:Dataset;
     void:dataDump naaa:all-20251231.ttl ;
     prov:qualifiedRevision [
         a prov:Revision ;
-        rdfs:comment "初期バージョンです。"@en
+        rdfs:comment "（仮・未リリース版です）初期バージョンです。"@en
     ] .
 #小問リソースのTTL
 <https://w3id.org/jp-naaa/小国2021-01> schema:hasPart <https://w3id.org/jp-naaa/小国2021-01_01/item>.
