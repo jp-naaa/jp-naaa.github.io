@@ -17,16 +17,16 @@
 _:toplevel a void:Dataset ;
     dct:title "全国学力調査LOD"@ja ;
     dct:title "National Assessment of Academic Ability (NAAA) LOD"@en ;
-    dct:description "「全国学力調査・学習状況調査」の問題・解説等をまとめた Linked Open Data (LOD) データセットです。"@ja ;
-    dct:description "This is a Linked Open Data (LOD) dataset that compiles questions and descriptions from the National Academic Ability Survey (NAAA) in Japan."@en;
+    dct:description "本データセットは、「全国学力・学習状況調査」の問題および解説等を整理した Linked Open Data（LOD）データセットです。本調査は、小学校第6学年および中学校第3学年の児童生徒が原則として全員受検する全国調査であり、平成26 (2024) 年度以降、悉皆方式で実施されています。教科は、国語・算数（数学）が毎年度、理科は3年に一度実施され、平成31 (2019) 年度（令和元年度）からは英語が加わり、英語も概ね3年に一度実施されています。調査は文部科学省が市町村教育委員会や学校法人等の協力のもと実施し、国立教育政策研究所が問題・解説資料の作成、調査結果の分析、報告書や授業アイディア例の作成を担っています。"@ja ;
+    dct:description "This dataset is a Linked Open Data (LOD) collection that organizes the test items and accompanying explanatory materials from Japan's National Academic Ability Survey (NAAA). The assessment is a nationwide census-based survey in which, in principle, all students in Grade 6 of elementary school and Grade 9 of junior high school participate, and it has been administered in this manner since AY2014. Japanese language and mathematics are assessed every year, while science is assessed once every three years. English was added in AY2019 and has also been administered approximately once every three years. The assessment is conducted by the Ministry of Education, Culture, Sports, Science and Technology (MEXT) in cooperation with municipal boards of education and other educational institutions. The National Institute for Educational Policy Research (NIER) is responsible for developing the test and explanatory materials, analyzing the results, and producing reports as well as examples of lesson ideas."@en;
     dct:license [
         rdf:value <https://creativecommons.org/licenses/by/4.0/>;
         rdfs:label "クリエイティブコモンズ・ライセンス 表示 (CC BY)";
         foaf:thumbnail <https://licensebuttons.net/l/by/4.0/88x31.png>
     ];
     prov:wasDerivedFrom [
-        rdf:value <https://www.mext.go.jp/a_menu/shotou/kyoukasho/tenji/1364484.htm>;
-        rdfs:label "全国学力調査・学習状況調査"
+        rdf:value <https://www.nier.go.jp/kaihatsu/zenkokugakuryoku.html>;
+        rdfs:label "全国学力調査・学習状況調査（国立教育政策研究所）"
     ];
     foaf:homepage <https://w3id.org/jp-naaa/>;
     pav:hasCurrentVersion _:v1.0 .
