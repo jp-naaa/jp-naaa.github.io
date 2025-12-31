@@ -30203,7 +30203,7 @@ naaa:subSectionNumber a rdfs:Property;
     sh:name "授業アイデア例"@ja;
     sh:name "Lesson plan"@en;
     skos:example <https://w3id.org/jp-naaa/中英2023-聞03/lessonPlan>;
-    sh:class <http://schema.org/MediaObject>;
+    sh:class <https://w3id.org/jp-naaa/LessonPlan>;
     sh:order 9
   ];
   sh:property [
