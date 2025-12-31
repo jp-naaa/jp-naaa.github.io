@@ -14,7 +14,7 @@
     <h3><%=h year %>年度調査</h3>
     <ul>
       <%- years[year].sort_by{|s|
-        param[:data_global][s]["https://www.w3.org/jp-cos/subjectArea"].first
+        param[:data_global][s]["https://w3id.org/jp-cos/subjectArea"].first
       }.each do |s| -%>
       <li><%= format_object(s, param[:data_global]) %></li>
       <%- end -%>
