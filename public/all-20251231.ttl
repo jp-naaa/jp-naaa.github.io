@@ -22995,7 +22995,7 @@ naaa:assessmentCriterion a rdfs:Property;
     rdfs:subPropertyOf schema:assesses .
 naaa:assessmentIntent a rdfs:Property;
     rdfs:label "出題の趣旨";
-    rdfs:comment "問題に対応する評価の観点を示すプロパティ";
+    rdfs:comment "問題に対応する出題の趣旨を示すプロパティ";
     rdfs:domain naaa:Item;
     rdfs:range rdfs:Literal;
     rdfs:subPropertyOf schema:assesses .
