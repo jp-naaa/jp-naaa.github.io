@@ -16,7 +16,7 @@
     schema:alternateName "「私たちにできるSDGｓを提案しよう」～資料を活用するなどして，自分の考えが伝わるように表現を工夫する～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082346/http://www.nier.go.jp/jugyourei/r03/data/21idea-plang_01.pdf> ;
     schema:pagination "3-4" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小国2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2021-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2021-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2021-03/lessonPlan> .
@@ -26,7 +26,7 @@
     schema:alternateName "「自分の考えを主張する文章を書こう」～目的や意図に応じて，自分の考えを支える理由や事例を明確にして詳しく書く～" ;
     schema:contentUrl <https://warp.ndl.go.jp/web/20250802012234/http://www.nier.go.jp/jugyourei/r03/data/21idea-plang_02.pdf> ;
     schema:pagination "5-6" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小国2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2021-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2021-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2021-02/lessonPlan> .
@@ -36,7 +36,7 @@
     schema:alternateName "「便利な道具の仕組みや作り方について調べて報告しよう」～目的に応じて，文章と図表などを結び付けて必要な情報を見付けながら読む～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082354/http://www.nier.go.jp/jugyourei/r03/data/21idea-plang_03.pdf> ;
     schema:pagination "7-8" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小国2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2021-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2021-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2021-01/lessonPlan> .
@@ -46,7 +46,7 @@
     schema:alternateName "「どちらが速いかを判断しよう」～除法の式と商の意味を理解し，表現する～" ;
     schema:contentUrl <https://warp.ndl.go.jp/web/20250802012245/http://www.nier.go.jp/jugyourei/r03/data/21idea-pmath_01.pdf> ;
     schema:pagination "9-10" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小算2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2021-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2021-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2021-03/lessonPlan> .
@@ -56,7 +56,7 @@
     schema:alternateName "「統計的な問題解決の方法で考えよう」～結論からさらなる問題を見いだし，計画を立てる～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082354/http://www.nier.go.jp/jugyourei/r03/data/21idea-pmath_02.pdf> ;
     schema:pagination "11-12" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小算2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2021-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2021-04> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2021-04/lessonPlan> .
@@ -66,7 +66,7 @@
     schema:alternateName "「小数を用いた倍の意味を説明しよう」～基準量や小数の仕組みに着目し，図を用いて倍の意味を考える～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082354/http://www.nier.go.jp/jugyourei/r03/data/21idea-pmath_03.pdf> ;
     schema:pagination "13-14" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小算2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2021-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2021-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2021-01/lessonPlan> .
@@ -76,7 +76,7 @@
     schema:alternateName "「動画を用いて話合いの中の自分の発言を振り返る」～話題や展開を捉えながら話し合い，互いの発言を結び付けて考えをまとめる～" ;
     schema:contentUrl <https://warp.ndl.go.jp/web/20250802012254/http://www.nier.go.jp/jugyourei/r03/data/21idea-mlang_01.pdf> ;
     schema:pagination "3-4" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中国2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2021-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2021-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2021-02/lessonPlan> .
@@ -86,7 +86,7 @@
     schema:alternateName "「読み手の立場に立って，文章を整えよう」～表現の効果などを確かめて，読みやすく分かりやすい文章にする～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082436/http://www.nier.go.jp/jugyourei/r03/data/21idea-mlang_02.pdf> ;
     schema:pagination "5-6" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中国2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2021-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2021-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2021-03/lessonPlan> .
@@ -96,7 +96,7 @@
     schema:alternateName "「叙述を根拠に自分の考えをもつ」～「吾輩は猫である」を読む～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082436/http://www.nier.go.jp/jugyourei/r03/data/21idea-mlang_03.pdf> ;
     schema:pagination "7-8" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中国2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2021-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2021-06> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2021-06/lessonPlan> .
@@ -106,7 +106,7 @@
     schema:alternateName "「四角で囲んだ４つの数の和の性質を見付けよう」～説明を振り返り，統合的・発展的に考察する～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082444/http://www.nier.go.jp/jugyourei/r03/data/21idea-mmath_01.pdf> ;
     schema:pagination "9-10" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2021-06/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2021-07> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2021-07/lessonPlan> .
@@ -116,7 +116,7 @@
     schema:alternateName "「２分をはかる砂時計を作るために必要な砂の重さを予想しよう」～２つの数量の関係を比例とみなして数学的に考察する～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082444/http://www.nier.go.jp/jugyourei/r03/data/21idea-mmath_02.pdf> ;
     schema:pagination "11-12" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2021-07/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2021-09> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2021-09/lessonPlan> .
@@ -126,7 +126,7 @@
     schema:alternateName "「三角定規を重ねると，どんな四角形ができるか考えよう」～図形を動的に観察することを通して，見いだした事柄を数学的に表現する～" ;
     schema:contentUrl <https://warp.ndl.go.jp/20250811/20250801082444/http://www.nier.go.jp/jugyourei/r03/data/21idea-mmath_03.pdf> ;
     schema:pagination "13-14" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2021/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2021-09/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2022-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2022-01/lessonPlan> .
@@ -136,7 +136,7 @@
     schema:alternateName "「地域のためにできることについて話し合おう」〜互いの立場を明確にしながら計画的に話し合い、考えをまとめる〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22plang_idea_01.pdf#page=10> ;
     schema:pagination "29-32" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/小国2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2022-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2022-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2022-02/lessonPlan> .
@@ -146,7 +146,7 @@
     schema:alternateName "「不思議な出来事が描かれている物語を読み、友達とすいせんし合おう」〜登場人物の相互関係や心情に着目し、人物像や物語の全体像を想像する〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22plang_idea_02.pdf#page=9> ;
     schema:pagination "41-47" ;
-    schema:numberOfPages "7" .
+    schema:numberOfPages 7 .
 <https://w3id.org/jp-naaa/小国2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2022-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2022-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2022-03/lessonPlan> .
@@ -156,7 +156,7 @@
     schema:alternateName "「六年生としてがんばりたいことを書こう」〜文章に対する感想や意見を伝え合い、自分の文章のよいところを見付ける〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22plang_idea_03.pdf#page=11> ;
     schema:pagination "58-61" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/小国2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2022-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2022-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2022-01/lessonPlan> .
@@ -166,7 +166,7 @@
     schema:alternateName "「目的に合った値段の見積りの仕方を考えよう」〜予想から問題を焦点化し、筋道を立てて考える〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22pmath_idea_01.pdf#page=13> ;
     schema:pagination "32-35" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/小算2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2022-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2022-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2022-02/lessonPlan> .
@@ -176,7 +176,7 @@
     schema:alternateName "「飲み物の量が変わったときに果汁の割合がどうなるかを考えよう」〜数や式と日常の具体的な場面を関連付ける〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22pmath_idea_02.pdf#page=14> ;
     schema:pagination "49-51" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2022-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2022-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2022-03/lessonPlan> .
@@ -186,7 +186,7 @@
     schema:alternateName "「１年生も６年生も楽しめる遊びを決めよう」〜得られた結論について、目的に応じて異なる観点や立場から多面的に考察する〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22pmath_idea_03.pdf#page=15> ;
     schema:pagination "66-69" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/小算2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2022-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2022-04> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2022-04/lessonPlan> .
@@ -196,7 +196,7 @@
     schema:alternateName "「正多角形の作図をしよう」〜図形の意味や性質を基に、発展的に考察する〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22pmath_idea_04.pdf#page=16> ;
     schema:pagination "85-87" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2022-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小理2022-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小理2022-01/lessonPlan> .
@@ -206,7 +206,7 @@
     schema:alternateName "「授業アイディア例 「植物の発芽、成長、結実」〜自然の事物・現象についてより深く理解する〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22psci_idea_01.pdf#page=9> ;
     schema:pagination "28-29" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小理2022-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小理2022-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小理2022-02/lessonPlan> .
@@ -216,7 +216,7 @@
     schema:alternateName "「水溶液の性質」〜自然の事物・現象や自他の気付きを基に、問題を見いだす〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22psci_idea_02.pdf#page=12> ;
     schema:pagination "46-47" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小理2022-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小理2022-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小理2022-03/lessonPlan> .
@@ -226,7 +226,7 @@
     schema:alternateName "「てこの規則性」〜結果を基に結論の根拠を明らかにして表現する〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22psci_idea_03.pdf#page=11> ;
     schema:pagination "58-59" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小理2022-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小理2022-04> naaa:lessonPlan <https://w3id.org/jp-naaa/小理2022-04/lessonPlan> .
@@ -236,7 +236,7 @@
     schema:alternateName "「天気の変化」〜他者の考えや意見を受け、解決の方法の妥当性を検討する〜" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22psci_idea_04.pdf#page=7> ;
     schema:pagination "66-67" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小理2022-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2022-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2022-01/lessonPlan> .
@@ -246,7 +246,7 @@
     schema:alternateName "「音声の働きや仕組みを意識しながら表現を工夫して話す」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22mlang_idea_01.pdf#page=8> ;
     schema:pagination "27-29" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中国2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2022-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2022-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2022-02/lessonPlan> .
@@ -256,7 +256,7 @@
     schema:alternateName "「考えの根拠が明確になるように情報を引用して書く」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22mlang_idea_02.pdf#page=10> ;
     schema:pagination "39-41" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中国2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2022-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2022-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2022-03/lessonPlan> .
@@ -266,7 +266,7 @@
     schema:alternateName "「話の展開を捉えて内容を解釈し、作品を読み味わう」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22mlang_idea_03.pdf#page=10> ;
     schema:pagination "51-53" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中国2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2022-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2022-04> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2022-04/lessonPlan> .
@@ -276,7 +276,7 @@
     schema:alternateName "「楷書の学習を踏まえ、行書の特徴を理解して書く」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22mlang_idea_04.pdf#page=4> ;
     schema:pagination "57-58" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中国2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2022-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2022-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2022-01/lessonPlan> .
@@ -286,7 +286,7 @@
     schema:alternateName "「平行四辺形になるための条件について考えよう」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22mmath_idea_03.pdf#page=5> ;
     schema:pagination "28-29" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2022-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2022-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2022-02/lessonPlan> .
@@ -296,7 +296,7 @@
     schema:alternateName "「２つの偶数の和が４の倍数になる条件を見いだそう」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22mmath_idea_06.pdf#page=13> ;
     schema:pagination "50-51" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2022-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2022-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2022-03/lessonPlan> .
@@ -306,7 +306,7 @@
     schema:alternateName "「コマが回る時間の傾向を捉えて説明しよう」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22mmath_idea_07.pdf#page=9> ;
     schema:pagination "60-61" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2022-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-01/lessonPlan> .
@@ -316,7 +316,7 @@
     schema:alternateName "「日常生活における現象を静電気の性質に関する知識と関連付けて説明する」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_01.pdf#page=3> ;
     schema:pagination "22-23" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-02/lessonPlan> .
@@ -326,7 +326,7 @@
     schema:alternateName "「考察に用いた観測データが妥当か検討し、考察を深める」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_02.pdf#page=9> ;
     schema:pagination "34-35" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-03/lessonPlan> .
@@ -336,7 +336,7 @@
     schema:alternateName "「ICT機器を活用して、化学変化を原子や分子のモデルを基に化学反応式で表す」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_03.pdf#page=7> ;
     schema:pagination "42-43" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-04> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-04/lessonPlan> .
@@ -346,7 +346,7 @@
     schema:alternateName "「動物の外部形態を生活場所や移動の仕方などと関連付けて考察し、表現する」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_04.pdf#page=5> ;
     schema:pagination "48-49" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-05> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-05/lessonPlan> .
@@ -356,7 +356,7 @@
     schema:alternateName "「改善点を明確にし、実験の計画を検討して改善する」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_05.pdf#page=9> ;
     schema:pagination "60-61" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-05/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-06> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-06/lessonPlan> .
@@ -366,7 +366,7 @@
     schema:alternateName "「一つの地層を複数の方位から捉え、広がり方や傾きを考える」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_06.pdf#page=7> ;
     schema:pagination "68-69" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-06/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-07> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-07/lessonPlan> .
@@ -376,7 +376,7 @@
     schema:alternateName "「実験の計画を検討して改善する必要性を考える」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_07.pdf#page=5> ;
     schema:pagination "74-76" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-07/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2022-08> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2022-08/lessonPlan> .
@@ -386,7 +386,7 @@
     schema:alternateName "「実験の計画を立案する際、予想や仮説と異なる結果が出ることを想定する」" ;
     schema:contentUrl <https://www.nier.go.jp/22chousakekkahoukoku/report/data/22msci_idea_08.pdf#page=7> ;
     schema:pagination "84-85" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2022/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2022-08/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2023-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2023-01/lessonPlan> .
@@ -396,7 +396,7 @@
     schema:alternateName "「学校の米作りについて解説する文章を書こう」〜情報と情報との関係を捉えたり、グラフなどを用いて、自分の考えが伝わるように書き表し方を工夫したりする〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23plang_idea_01_k.pdf#page=12> ;
     schema:pagination "30-35" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/小国2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2023-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2023-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2023-02/lessonPlan> .
@@ -406,7 +406,7 @@
     schema:alternateName "「健康に過ごすために、複数の本や資料を読み、自分ができそうなことをまとめよう」〜目的に応じて必要な情報を見付けたり、情報を関係付けて整理したりして、文章を読んで理解したことに基づいて、自分の考えをまとめる〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23plang_idea_02_k.pdf#page=13> ;
     schema:pagination "48-53" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/小国2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2023-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2023-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2023-03/lessonPlan> .
@@ -416,7 +416,7 @@
     schema:alternateName "「学校ボランティアの人たちを紹介するためにインタビューをしよう」〜話し手の目的や自分が聞こうとする意図に応じて、話の内容を捉え、自分の考えをまとめる〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23plang_idea_03_k.pdf#page=12> ;
     schema:pagination "65-70" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/小国2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2023-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2023-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2023-01/lessonPlan> .
@@ -426,7 +426,7 @@
     schema:alternateName "「プランターの高さや重さを求めよう」〜二つの数量の関係を明らかにして、問題を解決する〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23pmath_idea_01_k.pdf#page=14> ;
     schema:pagination "32-34" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2023-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2023-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2023-02/lessonPlan> .
@@ -436,7 +436,7 @@
     schema:alternateName "「平行な二つの直線にはさまれた二つの図形の面積を比べよう」〜平行線の性質と図形の意味や性質を基に、面積の公式を考察する〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23pmath_idea_02_k.pdf#page=21> ;
     schema:pagination "55-57" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2023-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2023-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2023-03/lessonPlan> .
@@ -446,7 +446,7 @@
     schema:alternateName "「本を並べたときの長さを工夫して求めよう」〜計算に関して成り立つ性質を活用し、場面を新たに捉える〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23pmath_idea_03_k.pdf#page=19> ;
     schema:pagination "76-77" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小算2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2023-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2023-04> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2023-04/lessonPlan> .
@@ -456,7 +456,7 @@
     schema:alternateName "「好きな運動を調べよう」〜目的に応じて、適切なグラフに表す〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23pmath_idea_04_k.pdf#page=18> ;
     schema:pagination "94-96" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2023-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2023-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2023-01/lessonPlan> .
@@ -466,7 +466,7 @@
     schema:alternateName "「聞き取ったことを基に効果的に質問し、自分の考えをまとめる」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23mlang_idea_01_k.pdf#page=10> ;
     schema:pagination "28-31" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/中国2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2023-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2023-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2023-02/lessonPlan> .
@@ -476,7 +476,7 @@
     schema:alternateName "「読書の意義を考え、自分の考えを広げたり深めたりする読書に生かす」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23mlang_idea_02_k_1.pdf#page=11> ;
     schema:pagination "42-47" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/中国2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2023-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2023-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2023-03/lessonPlan> .
@@ -486,7 +486,7 @@
     schema:alternateName "「自分の考えが伝わる文章になるように、根拠を明確にして書く」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23mlang_idea_03_k.pdf#page=10> ;
     schema:pagination "57-60" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/中国2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2023-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2023-04> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2023-04/lessonPlan> .
@@ -496,7 +496,7 @@
     schema:alternateName "「読むこと」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23mlang_idea_04_k_1.pdf#page=7> ;
     schema:pagination "67-69" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中国2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2023-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2023-06> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2023-06/lessonPlan> .
@@ -506,7 +506,7 @@
     schema:alternateName "「計算結果が４の倍数になるための条件を見いだそう」〜説明を振り返り、発展的に考察する〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23mmath_idea_06_k.pdf#page=11> ;
     schema:pagination "43-44" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2023-06/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2023-07> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2023-07/lessonPlan> .
@@ -516,7 +516,7 @@
     schema:alternateName "「黄葉日の傾向を読み取り説明しよう」〜データの分布の傾向を読み取り、批判的に考察し判断する〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23mmath_idea_07_k.pdf#page=7> ;
     schema:pagination "51-52" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2023-07/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2023-08> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2023-08/lessonPlan> .
@@ -526,7 +526,7 @@
     schema:alternateName "「グラフを直線とみていることは、どんなことを仮定して考えているのだろうか」〜事象を理想化したり単純化したりして考えること〜" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23mmath_idea_08_k.pdf#page=8> ;
     schema:pagination "60-61" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2023-08/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中英2023-聞03> naaa:lessonPlan <https://w3id.org/jp-naaa/中英2023-聞03/lessonPlan> .
@@ -536,7 +536,7 @@
     schema:alternateName "「自分の置かれた状況などから判断して、必要な情報を聞き取る力を育成するための学習過程」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23meng_idea_03_k.pdf#page=3> ;
     schema:pagination "30-32" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中英2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中英2023-聞07> naaa:lessonPlan <https://w3id.org/jp-naaa/中英2023-聞07/lessonPlan> .
@@ -546,7 +546,7 @@
     schema:alternateName "「短い文章の概要を捉える力を育成するための学習過程」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23meng_idea_07_k.pdf#page=5> ;
     schema:pagination "46-47" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中英2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞07/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中英2023-聞09> naaa:lessonPlan <https://w3id.org/jp-naaa/中英2023-聞09/lessonPlan> .
@@ -556,7 +556,7 @@
     schema:alternateName "「言語の働きを理解し、場面や状況に応じて表現を使い分ける力を育成するための学習過程」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23meng_idea_09_k.pdf#page=10> ;
     schema:pagination "65-66" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中英2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞09/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中英2023-話02> naaa:lessonPlan <https://w3id.org/jp-naaa/中英2023-話02/lessonPlan> .
@@ -566,7 +566,7 @@
     schema:alternateName "「聞いたことを基に自分の考えや理由を話す力を育成するための学習過程」" ;
     schema:contentUrl <https://www.nier.go.jp/23chousakekkahoukoku/report/data/23meng_idea_12_k.pdf#page=6> ;
     schema:pagination "95-97" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中英2023/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中英2023-話02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2024-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2024-01/lessonPlan> .
@@ -576,7 +576,7 @@
     schema:alternateName "「春花小の６年生と町の魅力を紹介し合おう」〜目的や意図に応じて、集めた材料を分類したり関係付けたりして、伝え合う内容を検討し、自分の考えが伝わるように表現を工夫する〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24plang_idea_01.pdf#page=11> ;
     schema:pagination "29-33" ;
-    schema:numberOfPages "5" .
+    schema:numberOfPages 5 .
 <https://w3id.org/jp-naaa/小国2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2024-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2024-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2024-02/lessonPlan> .
@@ -586,7 +586,7 @@
     schema:alternateName "「学校のよさを伝える文章を書こう」〜目的や意図に応じて、集めた材料を分類したり関係付けたりして、伝えたいことを明確にし、事実と感想、意見とを区別して書くなど、自分の考えが伝わるように書き表し方を工夫する〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24plang_idea_02.pdf#page=11> ;
     schema:pagination "44-49" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/小国2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2024-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2024-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2024-03/lessonPlan> .
@@ -596,7 +596,7 @@
     schema:alternateName "「物語を複数読み、自分の読書の世界を広げたり深めたりしよう」〜人物像や物語の全体像を具体的に想像したり、表現の効果を考えたりしながら、物語を読む〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24plang_idea_03.pdf#page=14> ;
     schema:pagination "63-70" ;
-    schema:numberOfPages "8" .
+    schema:numberOfPages 8 .
 <https://w3id.org/jp-naaa/小国2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2024-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2024-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2024-01/lessonPlan1> .
@@ -606,7 +606,7 @@
     schema:alternateName "「たすのかな？ひくのかな？Part１」〜場面を表す正しい図を選び、数量の関係を捉える〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24pmath_idea_01.pdf#page=5> ;
     schema:pagination "23-25" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2024-01/lessonPlan1> .
 
 <https://w3id.org/jp-naaa/小算2024-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2024-01/lessonPlan2> .
@@ -616,7 +616,7 @@
     schema:alternateName "「たすのかな？ひくのかな？Part２」〜場面を図に表しながら、数量の関係を捉える〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24pmath_idea_01.pdf#page=8> ;
     schema:pagination "26-27" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小算2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2024-01/lessonPlan2> .
 
 <https://w3id.org/jp-naaa/小算2024-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2024-03/lessonPlan> .
@@ -626,7 +626,7 @@
     schema:alternateName "「ボールが入った箱の体積を求めよう」〜球や直方体の性質を基に、縦と横の長さと高さを自分で見いだし、問題を解決する〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24pmath_idea_03.pdf#page=14> ;
     schema:pagination "51-53" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2024-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2024-04> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2024-04/lessonPlan> .
@@ -636,7 +636,7 @@
     schema:alternateName "「家から図書館までの自転車の速さを考えよう」〜道のりと時間の関係に着目し、問題場面や図、式を関連付けて、求めた速さの妥当性を検討する〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24pmath_idea_04.pdf#page=17> ;
     schema:pagination "70-72" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2024-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2024-05> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2024-05/lessonPlan> .
@@ -646,7 +646,7 @@
     schema:alternateName "「桜の開花日について調べよう」〜統計的な問題解決の方法を進んで生活に生かす〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24pmath_idea_05.pdf#page=12> ;
     schema:pagination "84-86" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/小算2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2024-05/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2024-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2024-01/lessonPlan> .
@@ -656,7 +656,7 @@
     schema:alternateName "「話合いの話題や展開を捉えながら、発言を結び付けて自分の考えをまとめる」" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24mlang_idea_01.pdf#page=11> ;
     schema:pagination "29-34" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/中国2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2024-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2024-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2024-02/lessonPlan> .
@@ -666,7 +666,7 @@
     schema:alternateName "「伝える対象や目的を意識し、必要な情報に着目して要約する」" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24mlang_idea_02.pdf#page=12> ;
     schema:pagination "46-51" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/中国2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2024-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2024-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2024-03/lessonPlan> .
@@ -676,7 +676,7 @@
     schema:alternateName "「表現の効果を考えて描写するなど、自分の考えが伝わる文章になるように工夫する」" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24mlang_idea_03.pdf#page=11> ;
     schema:pagination "62-65" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/中国2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2024-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2024-06> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2024-06/lessonPlan> .
@@ -686,7 +686,7 @@
     schema:alternateName "「○に入れた整数の和と□に入る整数の和の関係について考えよう」〜問題解決の過程を振り返り、統合的・発展的に考察する〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24mmath_idea_06.pdf#page=11> ;
     schema:pagination "45-46" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2024-06/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2024-07> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2024-07/lessonPlan> .
@@ -696,7 +696,7 @@
     schema:alternateName "「車型ロボットが進んだ距離について、データの分布の傾向を基に調べよう」〜データの分布の傾向を読み取り、批判的に考察し、判断する〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24mmath_idea_07.pdf#page=8> ;
     schema:pagination "54-56" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中数2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2024-07/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2024-08> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2024-08/lessonPlan> .
@@ -706,7 +706,7 @@
     schema:alternateName "「ストーブの灯油をちょうど使い切るための設定の仕方を考えよう」〜グラフを事象に即して解釈し問題を解決すること〜" ;
     schema:contentUrl <https://www.nier.go.jp/24chousakekkahoukoku/report/data/24mmath_idea_08.pdf#page=12> ;
     schema:pagination "68-69" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中数2024/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2024-08/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2025-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2025-01/lessonPlan> .
@@ -716,7 +716,7 @@
     schema:alternateName "「授業アイディア例　「働くことについて考えるためにインタビューをしよう」〜目的や意図に応じて、集めた材料を分類したり関係付けたりして、伝え合う内容を検討し、話し手の考えと比較しながら聞き、自分の考えをまとめる〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25plang_idea_01.pdf#page=10> ;
     schema:pagination "32-39" ;
-    schema:numberOfPages "8" .
+    schema:numberOfPages 8 .
 <https://w3id.org/jp-naaa/小国2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2025-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2025-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2025-02/lessonPlan> .
@@ -726,7 +726,7 @@
     schema:alternateName "「授業アイディア例　「伝統工芸品について推薦するちらしを書こう」〜目的や意図に応じて簡単に書いたり詳しく書いたりするなど、自分の考えが伝わるように書き表し方を工夫する〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25plang_idea_02.pdf#page=15> ;
     schema:pagination "54-58" ;
-    schema:numberOfPages "5" .
+    schema:numberOfPages 5 .
 <https://w3id.org/jp-naaa/小国2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2025-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小国2025-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小国2025-03/lessonPlan> .
@@ -736,7 +736,7 @@
     schema:alternateName "「授業アイディア例　「言葉の変化について調べ、分かったことをもとに自分の考えをまとめよう」〜目的に応じて、文章と図表などを結び付けるなどして必要な情報を見付ける〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25plang_idea_03.pdf#page=13> ;
     schema:pagination "71-77" ;
-    schema:numberOfPages "7" .
+    schema:numberOfPages 7 .
 <https://w3id.org/jp-naaa/小国2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小国2025-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2025-01> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2025-01/lessonPlan> .
@@ -746,7 +746,7 @@
     schema:alternateName "「ブロッコリーの出荷量について調べよう」〜目的に応じて適切なグラフを選択して判断する〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25pmath_idea_01.pdf#page=16> ;
     schema:pagination "38-43" ;
-    schema:numberOfPages "6" .
+    schema:numberOfPages 6 .
 <https://w3id.org/jp-naaa/小算2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2025-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2025-02> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2025-02/lessonPlan> .
@@ -756,7 +756,7 @@
     schema:alternateName "「五角形の面積の求め方を説明しよう」〜既習の図形の面積の求め方を基に考える〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25pmath_idea_02.pdf#page=16> ;
     schema:pagination "59-63" ;
-    schema:numberOfPages "5" .
+    schema:numberOfPages 5 .
 <https://w3id.org/jp-naaa/小算2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2025-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2025-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2025-03/lessonPlan> .
@@ -766,7 +766,7 @@
     schema:alternateName "「基にする数を揃えて考えよう」〜計算の仕方を統合的・発展的に考察する〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25pmath_idea_03.pdf#page=17> ;
     schema:pagination "80-83" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/小算2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2025-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小算2025-04> naaa:lessonPlan <https://w3id.org/jp-naaa/小算2025-04/lessonPlan> .
@@ -776,7 +776,7 @@
     schema:alternateName "「ハンドソープはあと何プッシュすることができるのかを考えよう」〜日常生活の問題を解決するために必要な数量を見いだす〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25pmath_idea_04.pdf#page=17> ;
     schema:pagination "100-104" ;
-    schema:numberOfPages "5" .
+    schema:numberOfPages 5 .
 <https://w3id.org/jp-naaa/小算2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小算2025-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小理2025-03> naaa:lessonPlan <https://w3id.org/jp-naaa/小理2025-03/lessonPlan> .
@@ -786,7 +786,7 @@
     schema:alternateName "「根拠を明確にしながら、自分の考えが伝わる文章を書く」" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25psci_idea_03.pdf#page=12> ;
     schema:pagination "55-56" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小理2025-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/小理2025-04> naaa:lessonPlan <https://w3id.org/jp-naaa/小理2025-04/lessonPlan> .
@@ -796,7 +796,7 @@
     schema:alternateName "「 資料や機器を用いて、自分の考えが分かりやすく伝わるように表現を工夫する」" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25psci_idea_04.pdf#page=16> ;
     schema:pagination "72-73" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/小理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/小理2025-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2025-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2025-01/lessonPlan> .
@@ -806,7 +806,7 @@
     schema:alternateName "「根拠を明確にしながら、自分の考えが伝わる文章を書く」" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25mlang_idea_01.pdf#page=11> ;
     schema:pagination "33-36" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/中国2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2025-01/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2025-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2025-02/lessonPlan> .
@@ -816,7 +816,7 @@
     schema:alternateName "「 資料や機器を用いて、自分の考えが分かりやすく伝わるように表現を工夫する」" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25mlang_idea_02.pdf#page=11> ;
     schema:pagination "47-51" ;
-    schema:numberOfPages "5" .
+    schema:numberOfPages 5 .
 <https://w3id.org/jp-naaa/中国2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2025-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中国2025-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中国2025-03/lessonPlan> .
@@ -826,7 +826,7 @@
     schema:alternateName "「 文章の構成や展開について、根拠を明確にして考える」" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25mlang_idea_03.pdf#page=9> ;
     schema:pagination "60-61" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中国2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中国2025-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2025-07> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2025-07/lessonPlan> .
@@ -836,7 +836,7 @@
     schema:alternateName "「Ａ、Ｂのどちらが勝ちやすいか調べよう（じゃんけんカードゲーム）」〜不確定な事象の起こりやすさを捉え考察し判断する〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25mmath_idea_07.pdf#page=8> ;
     schema:pagination "53-55" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中数2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2025-07/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2025-08> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2025-08/lessonPlan> .
@@ -846,7 +846,7 @@
     schema:alternateName "「新しい駅までの運賃がおよそ何円になるか予測しよう」〜関数を活用して問題を解決し、その過程を振り返ること〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25mmath_idea_08.pdf#page=8> ;
     schema:pagination "62-65" ;
-    schema:numberOfPages "4" .
+    schema:numberOfPages 4 .
 <https://w3id.org/jp-naaa/中数2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2025-08/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中数2025-09> naaa:lessonPlan <https://w3id.org/jp-naaa/中数2025-09/lessonPlan> .
@@ -856,7 +856,7 @@
     schema:alternateName "「すでに完成した証明の一部を書き直すことで、新しい証明を完成させよう」〜問題の条件を変えた場合の証明をするために、元の証明を評価・改善する〜" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25mmath_idea_09.pdf#page=9> ;
     schema:pagination "73-75" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中数2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中数2025-09/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2025-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-01/lessonPlan1> .
@@ -866,7 +866,7 @@
     schema:alternateName "＜見いだした問題を基に適切な課題をつくり、仮説を設定する＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_01.pdf#page=11> ;
     schema:pagination "35-37" ;
-    schema:numberOfPages "3" .
+    schema:numberOfPages 3 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-01/lessonPlan1> .
 
 <https://w3id.org/jp-naaa/中理2025-01> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-01/lessonPlan2> .
@@ -876,7 +876,7 @@
     schema:alternateName "＜探究から生じた新たな疑問などに着目して振り返る＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_01.pdf#page=31> ;
     schema:pagination "55-56" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-01/lessonPlan2> .
 
 <https://w3id.org/jp-naaa/中理2025-02> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-02/lessonPlan> .
@@ -886,7 +886,7 @@
     schema:alternateName "＜考察をより確かなものにするために、実験結果をもとに適切に説明する＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_02.pdf#page=6> ;
     schema:pagination "62-63" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-02/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2025-03> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-03/lessonPlan> .
@@ -896,7 +896,7 @@
     schema:alternateName "＜仮説を立てて科学的に探究する＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_03.pdf#page=7> ;
     schema:pagination "72-73" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-03/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2025-04> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-04/lessonPlan> .
@@ -906,7 +906,7 @@
     schema:alternateName "＜身の回りにある気体の密度の大小関係について分析し、解釈する＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_04.pdf#page=7> ;
     schema:pagination "82-83" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-04/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2025-05> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-05/lessonPlan> .
@@ -916,7 +916,7 @@
     schema:alternateName "＜化学変化を原子や分子のモデルで表す＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_05.pdf#page=13> ;
     schema:pagination "98-99" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-05/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2025-06> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-06/lessonPlan> .
@@ -926,7 +926,7 @@
     schema:alternateName "＜スケッチの有用性に気付く＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_06.pdf#page=6> ;
     schema:pagination "105-106" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-06/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2025-08> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-08/lessonPlan> .
@@ -936,7 +936,7 @@
     schema:alternateName "＜大地の変化について、時間的・空間的な見方を働かせて表現する＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_08.pdf#page=10> ;
     schema:pagination "121-122" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-08/lessonPlan> .
 
 <https://w3id.org/jp-naaa/中理2025-09> naaa:lessonPlan <https://w3id.org/jp-naaa/中理2025-09/lessonPlan> .
@@ -946,6 +946,6 @@
     schema:alternateName "＜気圧に関する身近な事象を考える＞" ;
     schema:contentUrl <https://www.nier.go.jp/25chousakekkahoukoku/report/data/25msci_idea_09.pdf#page=7> ;
     schema:pagination "129-130" ;
-    schema:numberOfPages "2" .
+    schema:numberOfPages 2 .
 <https://w3id.org/jp-naaa/中理2025/lessonPlan> schema:hasPart <https://w3id.org/jp-naaa/中理2025-09/lessonPlan> .
 
