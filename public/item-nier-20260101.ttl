@@ -23,7 +23,7 @@
     schema:description "津田梅子についての【スピーチ】の練習で，〈資料②〉と〈資料③〉を使った理由の説明として適切なものを選択する" ;
     naaa:assessmentIntent "資料を用いた目的を理解する" ;
     cs:grade "5", "6" ;
-    naaa:correctAnswerRate 75 ;
+    naaa:correctAnswerRate 75.0 ;
     naaa:nonResponseRate 0.4 .
 
 <https://w3id.org/jp-naaa/小国2021-01_03/item>
@@ -60,7 +60,7 @@
     naaa:assessmentIntent "目的に応じ，文章と図表とを結び付けて必要な情報を見付ける" ;
     cs:grade "5", "6" ;
     naaa:correctAnswerRate 34.6 ;
-    naaa:nonResponseRate 4 .
+    naaa:nonResponseRate 4.0 .
 
 <https://w3id.org/jp-naaa/小国2021-02_04/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -132,7 +132,7 @@
     naaa:assessmentIntent "文の中における修飾と被修飾との関係を捉える" ;
     cs:grade "3", "4" ;
     naaa:correctAnswerRate 43.8 ;
-    naaa:nonResponseRate 4 .
+    naaa:nonResponseRate 4.0 .
 
 <https://w3id.org/jp-naaa/小国2022-01_01/item>
     naaa:assessmentCriterion "知識・技能" ;
@@ -150,7 +150,7 @@
     naaa:assessmentIntent "言葉には，相手とのつながりをつくる働きがあることを捉える" ;
     cs:grade "5", "6" ;
     naaa:correctAnswerRate 68.9 ;
-    naaa:nonResponseRate 1 .
+    naaa:nonResponseRate 1.0 .
 
 <https://w3id.org/jp-naaa/小国2022-01_03/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -159,7 +159,7 @@
     naaa:assessmentIntent "必要なことを質問し，話し手が伝えたいことや自分が聞きたいことの中心を捉える" ;
     cs:grade "3", "4" ;
     naaa:correctAnswerRate 84.8 ;
-    naaa:nonResponseRate 1 .
+    naaa:nonResponseRate 1.0 .
 
 <https://w3id.org/jp-naaa/小国2022-01_04/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -168,7 +168,7 @@
     naaa:assessmentIntent "互いの立場や意図を明確にしながら計画的に話し合い，自分の考えをまとめる" ;
     cs:grade "5", "6" ;
     naaa:correctAnswerRate 47.8 ;
-    naaa:nonResponseRate 3 .
+    naaa:nonResponseRate 3.0 .
 
 <https://w3id.org/jp-naaa/小国2022-02_01_01/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -177,7 +177,7 @@
     naaa:assessmentIntent "登場人物の行動や気持ちなどについて，叙述を基に捉える" ;
     cs:grade "3", "4" ;
     naaa:correctAnswerRate 68.6 ;
-    naaa:nonResponseRate 1 .
+    naaa:nonResponseRate 1.0 .
 
 <https://w3id.org/jp-naaa/小国2022-02_01_02/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -231,7 +231,7 @@
     naaa:assessmentIntent "学年別漢字配当表に示されている漢字を文の中で正しく使う" ;
     cs:grade "5", "6" ;
     naaa:correctAnswerRate 65.3 ;
-    naaa:nonResponseRate 8 .
+    naaa:nonResponseRate 8.0 .
 
 <https://w3id.org/jp-naaa/小国2022-03_03_02/item>
     naaa:assessmentCriterion "知識・技能" ;
@@ -257,7 +257,7 @@
     schema:description "（一）から（二）に書き直した際，気を付けた内容として適切なものを選択する" ;
     naaa:assessmentIntent "漢字や仮名の大きさ，配列に注意して書く" ;
     cs:grade "3", "4" ;
-    naaa:correctAnswerRate 78 ;
+    naaa:correctAnswerRate 78.0 ;
     naaa:nonResponseRate 5.9 .
 
 <https://w3id.org/jp-naaa/小国2023-01_01/item>
@@ -276,7 +276,7 @@
     naaa:assessmentIntent "図表やグラフなどを用いて、自分の考えが伝わるように書き表し方を工夫することができるかどうかをみる" ;
     cs:grade "5", "6" ;
     naaa:correctAnswerRate 26.8 ;
-    naaa:nonResponseRate 7 .
+    naaa:nonResponseRate 7.0 .
 
 <https://w3id.org/jp-naaa/小国2023-01_03_01_01/item>
     naaa:assessmentCriterion "知識・技能" ;
@@ -284,7 +284,7 @@
     schema:description "【川村さんの文章】の下線部アを、漢字を使って書き直す（いがい）" ;
     naaa:assessmentIntent "学年別漢字配当表に示されている漢字を文の中で正しく使うことができるかどうかをみる" ;
     cs:grade "5", "6" ;
-    naaa:correctAnswerRate 53 ;
+    naaa:correctAnswerRate 53.0 ;
     naaa:nonResponseRate 4.7 .
 
 <https://w3id.org/jp-naaa/小国2023-01_03_01_02/item>
@@ -303,7 +303,7 @@
     naaa:assessmentIntent "送り仮名に注意して、漢字を文の中で正しく使うことができるかどうかをみる" ;
     cs:grade "5", "6" ;
     naaa:correctAnswerRate 93.1 ;
-    naaa:nonResponseRate 1 .
+    naaa:nonResponseRate 1.0 .
 
 <https://w3id.org/jp-naaa/小国2023-01_04/item>
     naaa:assessmentCriterion "知識・技能" ;
@@ -312,7 +312,7 @@
     naaa:assessmentIntent "文章の種類とその特徴について理解しているかどうかをみる" ;
     cs:grade "5", "6" ;
     naaa:correctAnswerRate 79.9 ;
-    naaa:nonResponseRate 2 .
+    naaa:nonResponseRate 2.0 .
 
 <https://w3id.org/jp-naaa/小国2023-02_01/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -419,7 +419,7 @@
     schema:description "オンラインで交流する場面において、【和田さんのメモ】がどのように役に立ったのかを説明したものとして、適切なものを選択する" ;
     naaa:assessmentIntent "目的や意図に応じて、集めた材料を分類したり関係付けたりして、伝え合う内容を検討することができるかどうかをみる" ;
     cs:grade "5", "6" ;
-    naaa:correctAnswerRate 64 ;
+    naaa:correctAnswerRate 64.0 ;
     naaa:nonResponseRate 0.9 .
 
 <https://w3id.org/jp-naaa/小国2024-02_01_01/item>
@@ -437,7 +437,7 @@
     schema:description "【高山さんのメモ】の書き表し方を説明したものとして、適切なものを選択する" ;
     naaa:assessmentIntent "情報と情報との関係付けの仕方、図などによる語句と語句との関係の表し方を理解し使うことができるかどうかをみる" ;
     cs:grade "5", "6" ;
-    naaa:correctAnswerRate 87 ;
+    naaa:correctAnswerRate 87.0 ;
     naaa:nonResponseRate 0.8 .
 
 <https://w3id.org/jp-naaa/小国2024-02_02/item>
@@ -474,7 +474,7 @@
     naaa:assessmentIntent "文の中における主語と述語との関係を捉えることができるかどうかをみる" ;
     cs:grade "3", "4" ;
     naaa:correctAnswerRate 62.5 ;
-    naaa:nonResponseRate 2 .
+    naaa:nonResponseRate 2.0 .
 
 <https://w3id.org/jp-naaa/小国2024-03_02_01/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -2616,7 +2616,7 @@
     naaa:assessmentIntent "与えられたデータから中央値を求めることができる" ;
     cs:grade "1" ;
     naaa:correctAnswerRate 84.4 ;
-    naaa:nonResponseRate 1 .
+    naaa:nonResponseRate 1.0 .
 
 <https://w3id.org/jp-naaa/中数2021-06_01/item>
     naaa:assessmentCriterion "数学的な見方や考え方" ;
@@ -2652,7 +2652,7 @@
     naaa:assessmentIntent "与えられた表やグラフから，必要な情報を適切に読み取ることができる" ;
     cs:grade "1" ;
     naaa:correctAnswerRate 93.6 ;
-    naaa:nonResponseRate 2 .
+    naaa:nonResponseRate 2.0 .
 
 <https://w3id.org/jp-naaa/中数2021-07_02/item>
     naaa:assessmentCriterion "数学的な見方や考え方" ;
@@ -2679,7 +2679,7 @@
     naaa:assessmentIntent "相対度数の必要性と意味を理解している" ;
     cs:grade "1" ;
     naaa:correctAnswerRate 37.1 ;
-    naaa:nonResponseRate 1 .
+    naaa:nonResponseRate 1.0 .
 
 <https://w3id.org/jp-naaa/中数2021-08_03/item>
     naaa:assessmentCriterion "数学的な見方や考え方" ;
@@ -2706,7 +2706,7 @@
     naaa:assessmentIntent "錯角が等しくなるための，２直線の位置関係を理解している" ;
     cs:grade "2" ;
     naaa:correctAnswerRate 64.7 ;
-    naaa:nonResponseRate 14 .
+    naaa:nonResponseRate 14.0 .
 
 <https://w3id.org/jp-naaa/中数2021-09_03/item>
     naaa:assessmentCriterion "数学的な見方や考え方" ;
@@ -2741,7 +2741,7 @@
     schema:description "【インタビューの様子の一部】で小森さんが傍線部アのように発言した目的として適切なものを選択する" ;
     naaa:assessmentIntent "自分が聞こうとする意図に応じて、話の内容を捉えることができるかどうかをみる" ;
     cs:grade "5", "6" ;
-    naaa:correctAnswerRate 72 ;
+    naaa:correctAnswerRate 72.0 ;
     naaa:nonResponseRate 0.6 .
 
 <https://w3id.org/jp-naaa/小国2025-01_03_02/item>
@@ -2831,7 +2831,7 @@
     schema:description "【話し合いの様子】の田中さんの発言の空欄Aに当てはまる内容として適切なものを選択する" ;
     naaa:assessmentIntent "目的に応じて、文章と図表などを結び付けるなどして必要な情報を見付けることができるかどうかをみる" ;
     cs:grade "5", "6" ;
-    naaa:correctAnswerRate 41 ;
+    naaa:correctAnswerRate 41.0 ;
     naaa:nonResponseRate 3.4 .
 
 <https://w3id.org/jp-naaa/小国2025-03_03_02/item>
@@ -2913,7 +2913,7 @@
     naaa:assessmentIntent "資料や機器を用いて、自分の考えが分かりやすく伝わるように表現を工夫することができるかどうかをみる" ;
     cs:grade "2" ;
     naaa:correctAnswerRate 23.4 ;
-    naaa:nonResponseRate 4 .
+    naaa:nonResponseRate 4.0 .
 
 <https://w3id.org/jp-naaa/中国2025-03_01/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -2930,7 +2930,7 @@
     schema:description "「兄」と「弟」が、物語の中でどのような性格の人物として描かれているかを書く" ;
     naaa:assessmentIntent "文章全体と部分との関係に注意しながら、登場人物の設定の仕方を捉えることができるかどうかをみる" ;
     cs:grade "2" ;
-    naaa:correctAnswerRate 90 ;
+    naaa:correctAnswerRate 90.0 ;
     naaa:nonResponseRate 3.9 .
 
 <https://w3id.org/jp-naaa/中国2025-03_03/item>
@@ -3030,7 +3030,7 @@
     naaa:assessmentIntent "角の大きさについて理解しているかどうかをみる" ;
     cs:grade "4" ;
     naaa:correctAnswerRate 79.4 ;
-    naaa:nonResponseRate 1 .
+    naaa:nonResponseRate 1.0 .
 
 <https://w3id.org/jp-naaa/小算2025-02_04/item>
     naaa:assessmentCriterion "思考・判断・表現" ;
@@ -3092,7 +3092,7 @@
     schema:description "使いかけのハンドソープがあと何プッシュすることができるのかを調べるために、必要な事柄を判断し、求め方を書く" ;
     naaa:assessmentIntent "伴って変わる二つの数量の関係に着目し、問題を解決するために必要な数量を見いだし、知りたい数量の大きさの求め方を式や言葉を用いて記述できるかどうかをみる" ;
     cs:grade "3", "4", "5" ;
-    naaa:correctAnswerRate 49 ;
+    naaa:correctAnswerRate 49.0 ;
     naaa:nonResponseRate 3.3 .
 
 <https://w3id.org/jp-naaa/小算2025-04_03/item>
@@ -3236,7 +3236,7 @@
     schema:description "平行四辺形ABCDの辺CB、ADを延長した直線上にBE＝DFとなる点E、Fを取っても、四角形AECFは平行四辺形となることの証明を完成する" ;
     naaa:assessmentIntent "統合的・発展的に考え、条件を変えた場合について、証明を評価・改善することができるかどうかをみる" ;
     cs:grade "2" ;
-    naaa:correctAnswerRate 37 ;
+    naaa:correctAnswerRate 37.0 ;
     naaa:nonResponseRate 7.1 .
 
 <https://w3id.org/jp-naaa/中数2025-09_03/item>
@@ -3272,7 +3272,7 @@
     schema:description "【結果】や【問題に対するまとめ】から、中くらいの粒の赤玉土に水がしみ込む時間を予想し、予想した理由とともに選ぶ" ;
     naaa:assessmentIntent "赤玉土の粒の大きさによる水のしみ込み方の違いについて、【結果】や【問題に対するまとめ】を基に、他の条件での結果を予想して、表現することができるかどうかをみる" ;
     cs:grade "4" ;
-    naaa:correctAnswerRate 78 ;
+    naaa:correctAnswerRate 78.0 ;
     naaa:nonResponseRate 0.9 .
 
 <https://w3id.org/jp-naaa/小理2025-02_01/item>
@@ -3344,7 +3344,7 @@
     schema:description "レタスの種子の発芽の結果から、てるみさんの気付きを基に、見いだした問題について書く" ;
     naaa:assessmentIntent "レタスの種子の発芽の条件について、差異点や共通点を基に、新たな問題を見いだし、表現することができるかどうかをみる" ;
     cs:grade "5" ;
-    naaa:correctAnswerRate 30 ;
+    naaa:correctAnswerRate 30.0 ;
     naaa:nonResponseRate 11.4 .
 
 <https://w3id.org/jp-naaa/小理2025-04_01/item>
@@ -3380,7 +3380,7 @@
     schema:description "海にある氷がとけることについて、水が氷に変わる温度を根拠に予想しているものを選ぶ" ;
     naaa:assessmentIntent "水が氷に変わる温度を根拠に、オホーツク海の氷の面積が減少した理由を予想し、表現することができるかどうかをみる" ;
     cs:grade "4" ;
-    naaa:correctAnswerRate 60 ;
+    naaa:correctAnswerRate 60.0 ;
     naaa:nonResponseRate 2.3 .
 
 <https://w3id.org/jp-naaa/小理2025-04_03_02/item>
@@ -3389,7 +3389,7 @@
     schema:description "水が陸から海へ流れていくことについて、水の行方と関連付けているものを選ぶ" ;
     naaa:assessmentIntent "氷がとけてできた水が海に流れていくことの根拠について、理科で学習したことと関連付けて、知識を概念的に理解しているかどうかをみる" ;
     cs:grade "4" ;
-    naaa:correctAnswerRate 61 ;
+    naaa:correctAnswerRate 61.0 ;
     naaa:nonResponseRate 2.4 .
 
 <https://w3id.org/jp-naaa/小理2025-04_03_03/item>
@@ -3497,7 +3497,7 @@
     schema:description "プロパンガスと都市ガスでシャボン玉を作ったときの様子から、プロパンガス、都市ガス、空気の密度の大小を判断し、小さい順に並べる" ;
     naaa:assessmentIntent "ガス警報器の設置場所が異なる理由を考える学習場面において、実験の様子と、密度に関する知識及び技能を関連付けて、それぞれの気体の密度の大小関係を分析して解釈できるかどうかをみる" ;
     cs:grade "1" ;
-    naaa:correctAnswerRate 51 ;
+    naaa:correctAnswerRate 51.0 ;
     naaa:nonResponseRate 0.1 .
 
 <https://w3id.org/jp-naaa/中理2025-04_02/item>
@@ -3515,7 +3515,7 @@
     schema:description "加熱を伴う実験において、火傷をしたときの適切な応急処置を選択する" ;
     naaa:assessmentIntent "加熱を伴う実験における実験器具の操作等に関する技能が身に付いているかどうかをみる" ;
     cs:grade "1" ;
-    naaa:correctAnswerRate 93 ;
+    naaa:correctAnswerRate 93.0 ;
     naaa:nonResponseRate 0.1 .
 
 <https://w3id.org/jp-naaa/中理2025-05_02/item>
