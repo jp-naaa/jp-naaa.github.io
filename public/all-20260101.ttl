@@ -25236,7 +25236,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[1]の調査問題（PDF）" ;
     schema:pagination "中英-1～中英-3" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 3 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞01/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞01/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞01/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25302,7 +25302,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[2]の調査問題（PDF）" ;
     schema:pagination "中英-4" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 1 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞02/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞02/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞02/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25368,7 +25368,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[3]の調査問題（PDF）" ;
     schema:pagination "中英-5" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 1 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞03/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞03/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞03/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25434,7 +25434,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[4]の調査問題（PDF）" ;
     schema:pagination "中英-6" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 1 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞04/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞04/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞04/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25498,7 +25498,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[5]の調査問題（PDF）" ;
     schema:pagination "中英-9～中英-10" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 2 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞05/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞05/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞05/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25545,7 +25545,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[6]の調査問題（PDF）" ;
     schema:pagination "中英-11～中英-12" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 2 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞06/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞06/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞06/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25592,7 +25592,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[7]の調査問題（PDF）" ;
     schema:pagination "中英-13～中英-14" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 2 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞07/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞07/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞07/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25639,7 +25639,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[8]の調査問題（PDF）" ;
     schema:pagination "中英-15～中英-16" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 2 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞08/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞08/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞08/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25686,7 +25686,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[9]の調査問題（PDF）" ;
     schema:pagination "中英-19～中英-20" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 2 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞09/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞09/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞09/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25733,7 +25733,7 @@ naaa:subSectionNumber a rdfs:Property;
     schema:name "令和5年度 中学校英語 聞・読・書[10]の調査問題（PDF）" ;
     schema:pagination "中英-21～中英-22" ; #設問の調査問題印字ページ範囲
     schema:numberOfPages 2 .
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞10/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer1> schema:hasPart <https://w3id.org/jp-naaa/中英2023-聞10/answer> .
 <https://w3id.org/jp-naaa/中英2023-聞10/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25773,7 +25773,7 @@ naaa:subSectionNumber a rdfs:Property;
     naaa:questionVideoScript <https://w3id.org/jp-naaa/中英2023-話01/questionVideoScript> ;
     naaa:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2017> . #対応する学習指導要領
 #大問に関連するリソースの定義
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-話01/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer2> schema:hasPart <https://w3id.org/jp-naaa/中英2023-話01/answer> .
 <https://w3id.org/jp-naaa/中英2023-話01/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
@@ -25829,7 +25829,7 @@ naaa:subSectionNumber a rdfs:Property;
     naaa:questionVideoScript <https://w3id.org/jp-naaa/中英2023-話02/questionVideoScript> ;
     naaa:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2017> . #対応する学習指導要領
 #大問に関連するリソースの定義
-<https://w3id.org/jp-naaa/中英2023/answer> schema:hasPart <https://w3id.org/jp-naaa/中英2023-話02/answer> .
+<https://w3id.org/jp-naaa/中英2023/answer2> schema:hasPart <https://w3id.org/jp-naaa/中英2023-話02/answer> .
 <https://w3id.org/jp-naaa/中英2023-話02/answer>
     a schema:MediaObject ;
     schema:encodingFormat "application/pdf" ;
