@@ -29,9 +29,8 @@ if $0 == __FILE__
     puts "Missing usage for subject(s):"
     missing.sort.each do |subject|
       rdf_type = data[subject.to_s][RDF.type.to_s]&.first
-      #rdf_type = g.first_object(subject: subject, predicate: RDF.type)
-      next if rdf_type and rdf_type == RDF::URI("https://w3id.org/jp-textbook/Textbook")
-      next if rdf_type and rdf_type == RDF::URI("https://w3id.org/jp-textbook/TeachingUnit")
+      next if rdf_type and rdf_type == RDF::URI("https://w3id.org/jp-naaa/Test")
+      next if rdf_type and rdf_type == RDF::URI("http://www.w3.org/ns/shacl#NodeShape")
       p subject
     end
   end
@@ -41,6 +40,7 @@ if $0 == __FILE__
   if not missing.empty?
     puts "Missing definition for object(s):"
     missing.sort.each do |object|
+      next if object =~ %r[\Ahttps://w3id.org/jp-naaa/\w+-\d{8}\.ttl\z]
       p object
     end
   end
