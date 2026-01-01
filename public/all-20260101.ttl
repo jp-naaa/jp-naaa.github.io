@@ -29783,7 +29783,7 @@ naaa:subSectionNumber a rdfs:Property;
     sh:path <http://schema.org/hasPart>;
     sh:name "下位のもの"@ja;
     sh:name "Lower lebel part"@en;
-    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/questionAudion>;
+    skos:example <https://w3id.org/jp-naaa/中英2023-聞01_01/item/questionAudio>;
     sh:class <http://schema.org/AudioObject>;
     sh:order 8
   ].
