@@ -69,7 +69,7 @@ naaa:document a rdfs:Property;
     rdfs:comment "問題に対応する解説資料への関連関係を示すプロパティ";
     #rdfs:domain 
     schema:domainIncludes naaa:Item, naaa:Section, naaa:Test;
-    rdfs:range naaa:MediaObject;
+    rdfs:range schema:MediaObject;
     rdfs:subPropertyOf dct:relation .
 
 naaa:itemNumber a rdfs:Property;
