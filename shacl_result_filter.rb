@@ -8,7 +8,6 @@ graph = RDF::Graph.new do |g|
     g << reader
   }
 end
-p graph.count
 query = RDF::Query.new({
   result: {
     RDF.type => RDF::URI("http://www.w3.org/ns/shacl#ValidationResult"),
