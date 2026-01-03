@@ -8,6 +8,7 @@ locale: ja
 subtitle_property_perclass:
   https://w3id.org/jp-naaa/Section: http://schema.org/alternateName
   https://w3id.org/jp-naaa/LessonPlan: http://schema.org/alternateName
+about_toc: true
 css_file: style.css
 javascript_file:
   - https://cdn.jsdelivr.net/npm/ldfetch@1.2/dist/main.min.js
