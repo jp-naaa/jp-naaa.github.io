@@ -71,13 +71,38 @@ _:toplevel a void:Dataset ;
     dcat:landingPage <https://jp-naaa.github.io/>;
     pav:hasCurrentVersion _:v1.0 .
 
+_:test-20251231 a void:Dataset;
+  void:dataDump naaa:test-20251231.ttl .
+_:section-20260101 a void:Dataset;
+  void:dataDump naaa:section-20260101.ttl .
+_:item-20251231 a void:Dataset;
+  void:dataDump naaa:item-20251231.ttl .
+_:item-nier-20260101 a void:Dataset;
+  void:dataDump naaa:item-nier-20260101.ttl .
+_:lessonPlan-20251231 a void:Dataset;
+  void:dataDump naaa:lessonPlan-20251231.ttl .
+_:dataset-20260121 a void:Dataset;
+  void:dataDump naaa:dataset-20260121.ttl .
+_:schema-20260101 a void:Dataset;
+  void:dataDump naaa:schema-20260101.ttl .
+_:shapes-20260101 a void:Dataset;
+  void:dataDump naaa:shapes-20260101.ttl .
 _:v1.0 a void:Dataset;
     pav:version "1.0" ;
-    dct:issued "2025-12-31";
-    dcat:byteSize 2280896 ;
-    void:triples 27771 ;
-    void:dataDump naaa:all-20251231.ttl ;
+    dct:issued "2026-01-22";
+    dcat:byteSize 2305733 ;
+    void:triples 28780 ;
+    void:dataDump naaa:all-20260122.ttl ;
+    void:subset _:dataset-20260121,
+        _:item-20251231,
+        _:item-nier-20260101,
+        _:lessonPlan-20251231,
+        _:schema-20260101,
+        _:section-20260101,
+        _:shapes-20260101,
+        _:test-20251231;
     prov:qualifiedRevision [
         a prov:Revision ;
-        rdfs:comment "（仮・未リリース版です）初期バージョンです。"@en
+        rdfs:comment "初期公開版です。"@en;
+        rdfs:seeAlso <https://github.com/jp-naaa/jp-naaa.github.io/milestone/1>
     ] .
