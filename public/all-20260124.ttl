@@ -1,3 +1,4 @@
+["public/dataset", "public/item", "public/item-nier", "public/lessonPlan", "public/schema", "public/section", "public/shapes", "public/test"]
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
 @prefix cs: <https://w3id.org/jp-cos/>.
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
@@ -80,6 +81,13 @@ _:toplevel a void:Dataset ;
     ];
     foaf:homepage <https://w3id.org/jp-naaa/>;
     dcat:landingPage <https://jp-naaa.github.io/>;
+    dcat:accessService [
+      a dcat:DataService;
+      dcat:description "SPARQLエンドポイント"@ja;
+      dcat:description "SPARQL Endpoint"@en;
+      dcat:endpointURL <https://dydra.com/masao/jp-naaa/sparql>;
+      dcat:landingPage <https://dydra.com/masao/jp-naaa/@query>
+    ];
     pav:hasCurrentVersion _:v1.0 .
 _:test-20251231 a void:Dataset;
   void:dataDump naaa:test-20251231.ttl .

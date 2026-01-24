@@ -69,6 +69,13 @@ _:toplevel a void:Dataset ;
     ];
     foaf:homepage <https://w3id.org/jp-naaa/>;
     dcat:landingPage <https://jp-naaa.github.io/>;
+    dcat:accessService [
+      a dcat:DataService;
+      dcat:description "SPARQLエンドポイント"@ja;
+      dcat:description "SPARQL Endpoint"@en;
+      dcat:endpointURL <https://dydra.com/masao/jp-naaa/sparql>;
+      dcat:landingPage <https://dydra.com/masao/jp-naaa/@query>
+    ];
     pav:hasCurrentVersion _:v1.0 .
 
 _:test-20251231 a void:Dataset;
