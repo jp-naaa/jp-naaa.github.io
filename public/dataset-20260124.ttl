@@ -1,0 +1,108 @@
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix pav:  <http://purl.org/pav/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix naaa: <https://w3id.org/jp-naaa/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+
+_:toplevel a void:Dataset ;
+    dct:title "全国学力調査LOD"@ja ;
+    dct:title "National Assessment of Academic Ability (NAAA) LOD"@en ;
+    dct:description "本データセットは、「全国学力・学習状況調査」の問題や解説などを整理したLinked Open Data（LOD）データセットです。この調査は、小学校6年生と中学校3年生を対象とした全国調査で、原則として全員が受けます。2014年度以降は、対象者全員に実施する方式（悉皆方式）で行われています。国語と算数（数学）は毎年度、理科は3年に一度実施されます。さらに2019年度から英語が加わり、英語も概ね3年に一度実施されています。"@ja;
+    dct:description "This dataset is a Linked Open Data (LOD) collection that organizes the test items and accompanying explanatory materials from Japan's National Academic Ability Survey (NAAA). The assessment is a nationwide census-based survey in which, in principle, all students in Grade 6 of elementary school and Grade 9 of junior high school participate, and it has been administered in this manner since AY2014. Japanese language and mathematics are assessed every year, while science is assessed once every three years. English was added in AY2019 and has also been administered approximately once every three years."@en;
+    dct:publisher [
+        a foaf:Project;
+        foaf:name "教育データプラス研究会"@ja;
+        foaf:mbox <mailto:yuka@nier.go.jp>;
+        foaf:member [
+          a foaf:Person;
+        	foaf:name "江草由佳"@ja;
+	        foaf:name "Yuka Egusa"@en;
+        	foaf:homepage <https://www.nier.go.jp/yuka/>;
+          vcard:organization-name "国立教育政策研究所"@ja;
+          vcard:organization-name "National Institute for Educational Policy Research"@en;
+        ], [
+        	a foaf:Person;
+	        foaf:name "高久雅生"@ja;
+		      foaf:name "Masao Takaku"@en;
+	        foaf:homepage <https://masao.jpn.org>;
+          vcard:organization-name "筑波大学"@ja;
+          vcard:organization-name "University of Tsukuba"@en;
+        ], [
+          a foaf:Person;
+	        foaf:name "阿児雄之"@ja;
+	        foaf:name "Takayuki Ako"@en;
+          vcard:organization-name "東京国立博物館"@ja;
+          vcard:organization-name "Tokyo National Museum"@en;
+        ], [
+	        a foaf:Person;
+		      foaf:name "有山裕美子"@ja;
+        	foaf:name "Yumiko Ariyama"@en;
+          vcard:organization-name "滋賀文教短期大学"@ja;
+          vcard:organization-name "Shiga Bunkyo Junior College"@en;
+	    ], [
+        	a foaf:Person;
+	        foaf:name "榎本聡"@ja;
+		      foaf:name "Satoshi Enomoto"@en;
+          vcard:organization-name "日本女子大学"@ja;
+          vcard:organization-name "Japan Women's University"@en;
+	    ], [
+	        a foaf:Person;
+		      foaf:name "大井将生"@ja;
+        	foaf:name "Masao Oi"@en;
+          vcard:organization-name "同志社大学"@ja;
+          vcard:organization-name "Doshisha University"@en;
+	    ]
+    ];
+    dct:license [
+        rdf:value <https://creativecommons.org/licenses/by/4.0/>;
+        rdfs:label "クリエイティブコモンズ・ライセンス 表示 (CC BY)";
+        foaf:thumbnail <https://licensebuttons.net/l/by/4.0/88x31.png>
+    ];
+    prov:wasDerivedFrom [
+        rdf:value <https://www.nier.go.jp/kaihatsu/zenkokugakuryoku.html>;
+        rdfs:label "全国学力調査・学習状況調査（国立教育政策研究所）"
+    ];
+    foaf:homepage <https://w3id.org/jp-naaa/>;
+    dcat:landingPage <https://jp-naaa.github.io/>;
+    pav:hasCurrentVersion _:v1.0 .
+
+_:test-20251231 a void:Dataset;
+  void:dataDump naaa:test-20251231.ttl .
+_:section-20260101 a void:Dataset;
+  void:dataDump naaa:section-20260101.ttl .
+_:item-20251231 a void:Dataset;
+  void:dataDump naaa:item-20251231.ttl .
+_:item-nier-20260101 a void:Dataset;
+  void:dataDump naaa:item-nier-20260101.ttl .
+_:lessonPlan-20251231 a void:Dataset;
+  void:dataDump naaa:lessonPlan-20251231.ttl .
+_:dataset-20260121 a void:Dataset;
+  void:dataDump naaa:dataset-20260121.ttl .
+_:schema-20260101 a void:Dataset;
+  void:dataDump naaa:schema-20260101.ttl .
+_:shapes-20260101 a void:Dataset;
+  void:dataDump naaa:shapes-20260101.ttl .
+_:v1.0 a void:Dataset;
+    pav:version "1.0" ;
+    dct:issued "2026-01-22";
+    dcat:byteSize 2306588 ;
+    void:triples 28804 ;
+    void:dataDump naaa:all-20260122.ttl ;
+    void:subset _:dataset-20260121,
+        _:item-20251231,
+        _:item-nier-20260101,
+        _:lessonPlan-20251231,
+        _:schema-20260101,
+        _:section-20260101,
+        _:shapes-20260101,
+        _:test-20251231;
+    prov:qualifiedRevision [
+        a prov:Revision ;
+        rdfs:comment "初期公開版です。"@en;
+        rdfs:seeAlso <https://github.com/jp-naaa/jp-naaa.github.io/milestone/1?closed=1>
+    ] .
