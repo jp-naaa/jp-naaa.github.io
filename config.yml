@@ -20,3 +20,4 @@ javascript_file:
   - script.js
 google_analytics: G-X3FB78EC00
 logo: logo.png
+enable_copy_link_button: true
