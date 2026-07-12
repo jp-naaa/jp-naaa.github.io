@@ -75,8 +75,7 @@ _:toplevel a void:Dataset ;
       dcat:description "SPARQL Endpoint"@en;
       dcat:endpointURL <https://dydra.com/masao/jp-naaa/sparql>;
       dcat:landingPage <https://dydra.com/masao/jp-naaa/@query>
-    ];
-    pav:hasCurrentVersion _:v1.0 .
+    ] .
 
 _:test-20251231 a void:Dataset;
   void:dataDump naaa:test-20251231.ttl .
@@ -110,6 +109,32 @@ _:v1.0 a void:Dataset;
         _:test-20251231;
     prov:qualifiedRevision [
         a prov:Revision ;
-        rdfs:comment "初期公開版です。"@en;
+        rdfs:comment "初期公開版です。"@ja;
         rdfs:seeAlso <https://github.com/jp-naaa/jp-naaa.github.io/milestone/1?closed=1>
     ] .
+_:toplevel pav:hasVersion _:v1.0 .
+
+_:item-nier-20260711 a void:Dataset;
+  void:dataDump naaa:item-nier-20260711.ttl .
+_:dataset-20260712 a void:Dataset;
+  void:dataDump naaa:dataset-20260712.ttl .
+_:v1.1 a void:Dataset;
+    pav:version "1.1" ;
+    dct:issued "2026-07-12";
+    dcat:byteSize 2307985 ;
+    void:triples 28833 ;
+    void:dataDump naaa:all-20260712.ttl ;
+    void:subset _:dataset-20260712,
+        _:item-20251231,
+        _:item-nier-20260711,
+        _:lessonPlan-20251231,
+        _:schema-20260101,
+        _:section-20260101,
+        _:shapes-20260101,
+        _:test-20251231;
+    prov:qualifiedRevision [
+        a prov:Revision ;
+        rdfs:comment "令和5年度中学校英語の一部設問の正答率に誤りがあり、記述内容を修正しました。令和7年度小学校国語設問の調査年度に誤りがあり、記述内容を修正しました。SPARQLエンドポイントを追加しました。URIリンクをコピーボタンを追加しました。ロゴ画像を追加しました。"@ja;
+        rdfs:seeAlso <https://github.com/jp-naaa/jp-naaa.github.io/milestone/2?closed=1>
+    ] .
+_:toplevel pav:hasCurrentVersion _:v1.1 .
