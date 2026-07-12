@@ -21,3 +21,9 @@ javascript_file:
 google_analytics: G-X3FB78EC00
 logo: logo.png
 enable_copy_link_button: true
+breadcrumbs:
+  - property: http://schema.org/hasPart
+    inverse: true
+    label:
+      - https://w3id.org/jp-naaa/itemNumber
+      - https://w3id.org/jp-naaa/sectionNumber
